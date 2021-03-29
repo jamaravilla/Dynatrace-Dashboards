@@ -4405,5 +4405,4 @@
       "markdown": "!PU(math):exp=x1;scope=x1:val25c;base=${MyBase.value};warn=${MyApp25WarningThreshold};crit=${MyApp25CriticalThreshold};size=28px"
     }
 ]
-
 }
