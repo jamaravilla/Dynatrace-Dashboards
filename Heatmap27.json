@@ -364,18 +364,18 @@
       "tileFilter": {},
       "markdown": "!PU(vlookup):link=${overviewName}table12;val=${app-1.name};col=1;base=${MyBase.value};warn=${MyApp1WarningThreshold};crit=${MyApp1CriticalThreshold};size=28px"
     },
-    {"name": "!PU(link):${overviewName}table1","tileType": "DATA_EXPLORER","configured": true,"bounds": {"top": 1292,"left": 0,"width": 38,"height": 38},"tileFilter": {"timeframe": "now to now${MyInterval}"},"customName": "Data explorer results","queries": [{"id": "A","metric": "${MyMetric.value}","spaceAggregation": "AVG","timeAggregation": "DEFAULT","splitBy": ["dt.entity.application"],"enabled": true}],"visualConfig": {"type": "TABLE","global": {"theme": "DEFAULT","threshold": {"axisTarget": "LEFT","rules": [{"color": "#7dc540"},{"color": "#f5d30f"},{"color": "#dc172a"}]},"seriesType": "LINE"},"rules": [{"matcher": "A:","properties": {"seriesType": "LINE"}}]}},
-    {"name": "!PU(link):${overviewName}table2","tileType": "DATA_EXPLORER","configured": true,"bounds": {"top": 1292,"left": 38,"width": 38,"height": 38},"tileFilter": {"timeframe": "now${MyInterval} to now${MyInterval}${MyInterval}"},"customName": "Data explorer results","queries": [{"id": "A","metric": "${MyMetric.value}","spaceAggregation": "AVG","timeAggregation": "DEFAULT","splitBy": ["dt.entity.application"],"enabled": true}],"visualConfig": {"type": "TABLE","global": {"theme": "DEFAULT","threshold": {"axisTarget": "LEFT","rules": [{"color": "#7dc540"},{"color": "#f5d30f"},{"color": "#dc172a"}]},"seriesType": "LINE"},"rules": [{"matcher": "A:","properties": {"seriesType": "LINE"}}]}},
-    {"name": "!PU(link):${overviewName}table3","tileType": "DATA_EXPLORER","configured": true,"bounds": {"top": 1292,"left": 76,"width": 38,"height": 38},"tileFilter": {"timeframe": "now${MyInterval}${MyInterval} to now${MyInterval}${MyInterval}${MyInterval}"},"customName": "Data explorer results","queries": [{"id": "A","metric": "${MyMetric.value}","spaceAggregation": "AVG","timeAggregation": "DEFAULT","splitBy": ["dt.entity.application"],"enabled": true}],"visualConfig": {"type": "TABLE","global": {"theme": "DEFAULT","threshold": {"axisTarget": "LEFT","rules": [{"color": "#7dc540"},{"color": "#f5d30f"},{"color": "#dc172a"}]},"seriesType": "LINE"},"rules": [{"matcher": "A:","properties": {"seriesType": "LINE"}}]}},
-    {"name": "!PU(link):${overviewName}table4","tileType": "DATA_EXPLORER","configured": true,"bounds": {"top": 1292,"left": 114,"width": 38,"height": 38},"tileFilter": {"timeframe": "now${MyInterval}${MyInterval}${MyInterval} to now${MyInterval}${MyInterval}${MyInterval}${MyInterval}"},"customName": "Data explorer results","queries": [{"id": "A","metric": "${MyMetric.value}","spaceAggregation": "AVG","timeAggregation": "DEFAULT","splitBy": ["dt.entity.application"],"enabled": true}],"visualConfig": {"type": "TABLE","global": {"theme": "DEFAULT","threshold": {"axisTarget": "LEFT","rules": [{"color": "#7dc540"},{"color": "#f5d30f"},{"color": "#dc172a"}]},"seriesType": "LINE"},"rules": [{"matcher": "A:","properties": {"seriesType": "LINE"}}]}},
-    {"name": "!PU(link):${overviewName}table5","tileType": "DATA_EXPLORER","configured": true,"bounds": {"top": 1292,"left": 152,"width": 38,"height": 38},"tileFilter": {"timeframe": "now${MyInterval}${MyInterval}${MyInterval}${MyInterval} to now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}"},"customName": "Data explorer results","queries": [{"id": "A","metric": "${MyMetric.value}","spaceAggregation": "AVG","timeAggregation": "DEFAULT","splitBy": ["dt.entity.application"],"enabled": true}],"visualConfig": {"type": "TABLE","global": {"theme": "DEFAULT","threshold": {"axisTarget": "LEFT","rules": [{"color": "#7dc540"},{"color": "#f5d30f"},{"color": "#dc172a"}]},"seriesType": "LINE"},"rules": [{"matcher": "A:","properties": {"seriesType": "LINE"}}]}},
-    {"name": "!PU(link):${overviewName}table6","tileType": "DATA_EXPLORER","configured": true,"bounds": {"top": 1292,"left": 190,"width": 38,"height": 38},"tileFilter": {"timeframe": "now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval} to now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}"},"customName": "Data explorer results","queries": [{"id": "A","metric": "${MyMetric.value}","spaceAggregation": "AVG","timeAggregation": "DEFAULT","splitBy": ["dt.entity.application"],"enabled": true}],"visualConfig": {"type": "TABLE","global": {"theme": "DEFAULT","threshold": {"axisTarget": "LEFT","rules": [{"color": "#7dc540"},{"color": "#f5d30f"},{"color": "#dc172a"}]},"seriesType": "LINE"},"rules": [{"matcher": "A:","properties": {"seriesType": "LINE"}}]}},
-    {"name": "!PU(link):${overviewName}table7","tileType": "DATA_EXPLORER","configured": true,"bounds": {"top": 1292,"left": 228,"width": 38,"height": 38},"tileFilter": {"timeframe": "now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval} to now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}"},"customName": "Data explorer results","queries": [{"id": "A","metric": "${MyMetric.value}","spaceAggregation": "AVG","timeAggregation": "DEFAULT","splitBy": ["dt.entity.application"],"enabled": true}],"visualConfig": {"type": "TABLE","global": {"theme": "DEFAULT","threshold": {"axisTarget": "LEFT","rules": [{"color": "#7dc540"},{"color": "#f5d30f"},{"color": "#dc172a"}]},"seriesType": "LINE"},"rules": [{"matcher": "A:","properties": {"seriesType": "LINE"}}]}},
-    {"name": "!PU(link):${overviewName}table8","tileType": "DATA_EXPLORER","configured": true,"bounds": {"top": 1292,"left": 266,"width": 38,"height": 38},"tileFilter": {"timeframe": "now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval} to now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}"},"customName": "Data explorer results","queries": [{"id": "A","metric": "${MyMetric.value}","spaceAggregation": "AVG","timeAggregation": "DEFAULT","splitBy": ["dt.entity.application"],"enabled": true}],"visualConfig": {"type": "TABLE","global": {"theme": "DEFAULT","threshold": {"axisTarget": "LEFT","rules": [{"color": "#7dc540"},{"color": "#f5d30f"},{"color": "#dc172a"}]},"seriesType": "LINE"},"rules": [{"matcher": "A:","properties": {"seriesType": "LINE"}}]}},
-    {"name": "!PU(link):${overviewName}table9","tileType": "DATA_EXPLORER","configured": true,"bounds": {"top": 1292,"left": 304,"width": 38,"height": 38},"tileFilter": {"timeframe": "now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval} to now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}"},"customName": "Data explorer results","queries": [{"id": "A","metric": "${MyMetric.value}","spaceAggregation": "AVG","timeAggregation": "DEFAULT","splitBy": ["dt.entity.application"],"enabled": true}],"visualConfig": {"type": "TABLE","global": {"theme": "DEFAULT","threshold": {"axisTarget": "LEFT","rules": [{"color": "#7dc540"},{"color": "#f5d30f"},{"color": "#dc172a"}]},"seriesType": "LINE"},"rules": [{"matcher": "A:","properties": {"seriesType": "LINE"}}]}},
-    {"name": "!PU(link):${overviewName}table10","tileType": "DATA_EXPLORER","configured": true,"bounds": {"top": 1292,"left": 342,"width": 38,"height": 38},"tileFilter": {"timeframe": "now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval} to now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}"},"customName": "Data explorer results","queries": [{"id": "A","metric": "${MyMetric.value}","spaceAggregation": "AVG","timeAggregation": "DEFAULT","splitBy": ["dt.entity.application"],"enabled": true}],"visualConfig": {"type": "TABLE","global": {"theme": "DEFAULT","threshold": {"axisTarget": "LEFT","rules": [{"color": "#7dc540"},{"color": "#f5d30f"},{"color": "#dc172a"}]},"seriesType": "LINE"},"rules": [{"matcher": "A:","properties": {"seriesType": "LINE"}}]}},
-    {"name": "!PU(link):${overviewName}table11","tileType": "DATA_EXPLORER","configured": true,"bounds": {"top": 1292,"left": 380,"width": 38,"height": 38},"tileFilter": {"timeframe": "now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval} to now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}"},"customName": "Data explorer results","queries": [{"id": "A","metric": "${MyMetric.value}","spaceAggregation": "AVG","timeAggregation": "DEFAULT","splitBy": ["dt.entity.application"],"enabled": true}],"visualConfig": {"type": "TABLE","global": {"theme": "DEFAULT","threshold": {"axisTarget": "LEFT","rules": [{"color": "#7dc540"},{"color": "#f5d30f"},{"color": "#dc172a"}]},"seriesType": "LINE"},"rules": [{"matcher": "A:","properties": {"seriesType": "LINE"}}]}},
-    {"name": "!PU(link):${overviewName}table12","tileType": "DATA_EXPLORER","configured": true,"bounds": {"top": 1292,"left": 418,"width": 38,"height": 38},"tileFilter": {"timeframe": "now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval} to now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}"},"customName": "Data explorer results","queries": [{"id": "A","metric": "${MyMetric.value}","spaceAggregation": "AVG","timeAggregation": "DEFAULT","splitBy": ["dt.entity.application"],"enabled": true}],"visualConfig": {"type": "TABLE","global": {"theme": "DEFAULT","threshold": {"axisTarget": "LEFT","rules": [{"color": "#7dc540"},{"color": "#f5d30f"},{"color": "#dc172a"}]},"seriesType": "LINE"},"rules": [{"matcher": "A:","properties": {"seriesType": "LINE"}}]}},       {
+    {"name": "!PU(link):${overviewName}table1","tileType": "DATA_EXPLORER","configured": true,"bounds": {"top": 1292,"left": 0,"width": 38,"height": 38},"tileFilter": {"timeframe": "now to now${MyInterval}"},"customName": "Data explorer results","queries": [{"id": "A","metric": "${MyMetric.value}","spaceAggregation":  "${MyAggregation.value}","timeAggregation": "DEFAULT","splitBy": ["dt.entity.application"],"enabled": true}],"visualConfig": {"type": "TABLE","global": {"theme": "DEFAULT","threshold": {"axisTarget": "LEFT","rules": [{"color": "#7dc540"},{"color": "#f5d30f"},{"color": "#dc172a"}]},"seriesType": "LINE"},"rules": [{"matcher": "A:","properties": {"seriesType": "LINE"}}]}},
+    {"name": "!PU(link):${overviewName}table2","tileType": "DATA_EXPLORER","configured": true,"bounds": {"top": 1292,"left": 38,"width": 38,"height": 38},"tileFilter": {"timeframe": "now${MyInterval} to now${MyInterval}${MyInterval}"},"customName": "Data explorer results","queries": [{"id": "A","metric": "${MyMetric.value}","spaceAggregation":  "${MyAggregation.value}","timeAggregation": "DEFAULT","splitBy": ["dt.entity.application"],"enabled": true}],"visualConfig": {"type": "TABLE","global": {"theme": "DEFAULT","threshold": {"axisTarget": "LEFT","rules": [{"color": "#7dc540"},{"color": "#f5d30f"},{"color": "#dc172a"}]},"seriesType": "LINE"},"rules": [{"matcher": "A:","properties": {"seriesType": "LINE"}}]}},
+    {"name": "!PU(link):${overviewName}table3","tileType": "DATA_EXPLORER","configured": true,"bounds": {"top": 1292,"left": 76,"width": 38,"height": 38},"tileFilter": {"timeframe": "now${MyInterval}${MyInterval} to now${MyInterval}${MyInterval}${MyInterval}"},"customName": "Data explorer results","queries": [{"id": "A","metric": "${MyMetric.value}","spaceAggregation":  "${MyAggregation.value}","timeAggregation": "DEFAULT","splitBy": ["dt.entity.application"],"enabled": true}],"visualConfig": {"type": "TABLE","global": {"theme": "DEFAULT","threshold": {"axisTarget": "LEFT","rules": [{"color": "#7dc540"},{"color": "#f5d30f"},{"color": "#dc172a"}]},"seriesType": "LINE"},"rules": [{"matcher": "A:","properties": {"seriesType": "LINE"}}]}},
+    {"name": "!PU(link):${overviewName}table4","tileType": "DATA_EXPLORER","configured": true,"bounds": {"top": 1292,"left": 114,"width": 38,"height": 38},"tileFilter": {"timeframe": "now${MyInterval}${MyInterval}${MyInterval} to now${MyInterval}${MyInterval}${MyInterval}${MyInterval}"},"customName": "Data explorer results","queries": [{"id": "A","metric": "${MyMetric.value}","spaceAggregation":  "${MyAggregation.value}","timeAggregation": "DEFAULT","splitBy": ["dt.entity.application"],"enabled": true}],"visualConfig": {"type": "TABLE","global": {"theme": "DEFAULT","threshold": {"axisTarget": "LEFT","rules": [{"color": "#7dc540"},{"color": "#f5d30f"},{"color": "#dc172a"}]},"seriesType": "LINE"},"rules": [{"matcher": "A:","properties": {"seriesType": "LINE"}}]}},
+    {"name": "!PU(link):${overviewName}table5","tileType": "DATA_EXPLORER","configured": true,"bounds": {"top": 1292,"left": 152,"width": 38,"height": 38},"tileFilter": {"timeframe": "now${MyInterval}${MyInterval}${MyInterval}${MyInterval} to now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}"},"customName": "Data explorer results","queries": [{"id": "A","metric": "${MyMetric.value}","spaceAggregation":  "${MyAggregation.value}","timeAggregation": "DEFAULT","splitBy": ["dt.entity.application"],"enabled": true}],"visualConfig": {"type": "TABLE","global": {"theme": "DEFAULT","threshold": {"axisTarget": "LEFT","rules": [{"color": "#7dc540"},{"color": "#f5d30f"},{"color": "#dc172a"}]},"seriesType": "LINE"},"rules": [{"matcher": "A:","properties": {"seriesType": "LINE"}}]}},
+    {"name": "!PU(link):${overviewName}table6","tileType": "DATA_EXPLORER","configured": true,"bounds": {"top": 1292,"left": 190,"width": 38,"height": 38},"tileFilter": {"timeframe": "now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval} to now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}"},"customName": "Data explorer results","queries": [{"id": "A","metric": "${MyMetric.value}","spaceAggregation":  "${MyAggregation.value}","timeAggregation": "DEFAULT","splitBy": ["dt.entity.application"],"enabled": true}],"visualConfig": {"type": "TABLE","global": {"theme": "DEFAULT","threshold": {"axisTarget": "LEFT","rules": [{"color": "#7dc540"},{"color": "#f5d30f"},{"color": "#dc172a"}]},"seriesType": "LINE"},"rules": [{"matcher": "A:","properties": {"seriesType": "LINE"}}]}},
+    {"name": "!PU(link):${overviewName}table7","tileType": "DATA_EXPLORER","configured": true,"bounds": {"top": 1292,"left": 228,"width": 38,"height": 38},"tileFilter": {"timeframe": "now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval} to now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}"},"customName": "Data explorer results","queries": [{"id": "A","metric": "${MyMetric.value}","spaceAggregation":  "${MyAggregation.value}","timeAggregation": "DEFAULT","splitBy": ["dt.entity.application"],"enabled": true}],"visualConfig": {"type": "TABLE","global": {"theme": "DEFAULT","threshold": {"axisTarget": "LEFT","rules": [{"color": "#7dc540"},{"color": "#f5d30f"},{"color": "#dc172a"}]},"seriesType": "LINE"},"rules": [{"matcher": "A:","properties": {"seriesType": "LINE"}}]}},
+    {"name": "!PU(link):${overviewName}table8","tileType": "DATA_EXPLORER","configured": true,"bounds": {"top": 1292,"left": 266,"width": 38,"height": 38},"tileFilter": {"timeframe": "now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval} to now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}"},"customName": "Data explorer results","queries": [{"id": "A","metric": "${MyMetric.value}","spaceAggregation":  "${MyAggregation.value}","timeAggregation": "DEFAULT","splitBy": ["dt.entity.application"],"enabled": true}],"visualConfig": {"type": "TABLE","global": {"theme": "DEFAULT","threshold": {"axisTarget": "LEFT","rules": [{"color": "#7dc540"},{"color": "#f5d30f"},{"color": "#dc172a"}]},"seriesType": "LINE"},"rules": [{"matcher": "A:","properties": {"seriesType": "LINE"}}]}},
+    {"name": "!PU(link):${overviewName}table9","tileType": "DATA_EXPLORER","configured": true,"bounds": {"top": 1292,"left": 304,"width": 38,"height": 38},"tileFilter": {"timeframe": "now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval} to now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}"},"customName": "Data explorer results","queries": [{"id": "A","metric": "${MyMetric.value}","spaceAggregation":  "${MyAggregation.value}","timeAggregation": "DEFAULT","splitBy": ["dt.entity.application"],"enabled": true}],"visualConfig": {"type": "TABLE","global": {"theme": "DEFAULT","threshold": {"axisTarget": "LEFT","rules": [{"color": "#7dc540"},{"color": "#f5d30f"},{"color": "#dc172a"}]},"seriesType": "LINE"},"rules": [{"matcher": "A:","properties": {"seriesType": "LINE"}}]}},
+    {"name": "!PU(link):${overviewName}table10","tileType": "DATA_EXPLORER","configured": true,"bounds": {"top": 1292,"left": 342,"width": 38,"height": 38},"tileFilter": {"timeframe": "now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval} to now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}"},"customName": "Data explorer results","queries": [{"id": "A","metric": "${MyMetric.value}","spaceAggregation":  "${MyAggregation.value}","timeAggregation": "DEFAULT","splitBy": ["dt.entity.application"],"enabled": true}],"visualConfig": {"type": "TABLE","global": {"theme": "DEFAULT","threshold": {"axisTarget": "LEFT","rules": [{"color": "#7dc540"},{"color": "#f5d30f"},{"color": "#dc172a"}]},"seriesType": "LINE"},"rules": [{"matcher": "A:","properties": {"seriesType": "LINE"}}]}},
+    {"name": "!PU(link):${overviewName}table11","tileType": "DATA_EXPLORER","configured": true,"bounds": {"top": 1292,"left": 380,"width": 38,"height": 38},"tileFilter": {"timeframe": "now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval} to now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}"},"customName": "Data explorer results","queries": [{"id": "A","metric": "${MyMetric.value}","spaceAggregation":  "${MyAggregation.value}","timeAggregation": "DEFAULT","splitBy": ["dt.entity.application"],"enabled": true}],"visualConfig": {"type": "TABLE","global": {"theme": "DEFAULT","threshold": {"axisTarget": "LEFT","rules": [{"color": "#7dc540"},{"color": "#f5d30f"},{"color": "#dc172a"}]},"seriesType": "LINE"},"rules": [{"matcher": "A:","properties": {"seriesType": "LINE"}}]}},
+    {"name": "!PU(link):${overviewName}table12","tileType": "DATA_EXPLORER","configured": true,"bounds": {"top": 1292,"left": 418,"width": 38,"height": 38},"tileFilter": {"timeframe": "now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval} to now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}"},"customName": "Data explorer results","queries": [{"id": "A","metric": "${MyMetric.value}","spaceAggregation":  "${MyAggregation.value}","timeAggregation": "DEFAULT","splitBy": ["dt.entity.application"],"enabled": true}],"visualConfig": {"type": "TABLE","global": {"theme": "DEFAULT","threshold": {"axisTarget": "LEFT","rules": [{"color": "#7dc540"},{"color": "#f5d30f"},{"color": "#dc172a"}]},"seriesType": "LINE"},"rules": [{"matcher": "A:","properties": {"seriesType": "LINE"}}]}},       {
       "name": "Markdown",
       "tileType": "MARKDOWN",
       "configured": true,
@@ -2082,7 +2082,7 @@
         "height": 38
       },
       "tileFilter": {},
-      "markdown": "!PU(math):exp=x1;scope=x1:val121;base=${MyBase.value};warn=${MyApp12WarningThreshold};crit=${MyApp12CriticalThreshold};size=28px"
+      "markdown": "!PU(vlookup):link=${overviewName}table1;val=${app-12.name};col=1;base=${MyBase.value};warn=${MyApp1WarningThreshold};crit=${MyApp1CriticalThreshold};size=28px"
     },
     {
       "name": "Markdown",
@@ -2095,7 +2095,7 @@
         "height": 38
       },
       "tileFilter": {},
-      "markdown": "!PU(math):exp=x1;scope=x1:val122;base=${MyBase.value};warn=${MyApp12WarningThreshold};crit=${MyApp12CriticalThreshold};size=28px"
+      "markdown": "!PU(vlookup):link=${overviewName}table2;val=${app-12.name};col=1;base=${MyBase.value};warn=${MyApp1WarningThreshold};crit=${MyApp1CriticalThreshold};size=28px"
     },
     {
       "name": "Markdown",
@@ -2108,7 +2108,7 @@
         "height": 38
       },
       "tileFilter": {},
-      "markdown": "!PU(math):exp=x1;scope=x1:val123;base=${MyBase.value};warn=${MyApp12WarningThreshold};crit=${MyApp12CriticalThreshold};size=28px"
+      "markdown": "!PU(vlookup):link=${overviewName}table3;val=${app-12.name};col=1;base=${MyBase.value};warn=${MyApp1WarningThreshold};crit=${MyApp1CriticalThreshold};size=28px"
     },
     {
       "name": "Markdown",
@@ -2121,7 +2121,7 @@
         "height": 38
       },
       "tileFilter": {},
-      "markdown": "!PU(math):exp=x1;scope=x1:val124;base=${MyBase.value};warn=${MyApp12WarningThreshold};crit=${MyApp12CriticalThreshold};size=28px"
+      "markdown": "!PU(vlookup):link=${overviewName}table4;val=${app-12.name};col=1;base=${MyBase.value};warn=${MyApp1WarningThreshold};crit=${MyApp1CriticalThreshold};size=28px"
     },
     {
       "name": "Markdown",
@@ -2134,7 +2134,7 @@
         "height": 38
       },
       "tileFilter": {},
-      "markdown": "!PU(math):exp=x1;scope=x1:val125;base=${MyBase.value};warn=${MyApp12WarningThreshold};crit=${MyApp12CriticalThreshold};size=28px"
+      "markdown": "!PU(vlookup):link=${overviewName}table5;val=${app-12.name};col=1;base=${MyBase.value};warn=${MyApp1WarningThreshold};crit=${MyApp1CriticalThreshold};size=28px"
     },
     {
       "name": "Markdown",
@@ -2147,7 +2147,7 @@
         "height": 38
       },
       "tileFilter": {},
-      "markdown": "!PU(math):exp=x1;scope=x1:val126;base=${MyBase.value};warn=${MyApp12WarningThreshold};crit=${MyApp12CriticalThreshold};size=28px"
+      "markdown": "!PU(vlookup):link=${overviewName}table6;val=${app-12.name};col=1;base=${MyBase.value};warn=${MyApp1WarningThreshold};crit=${MyApp1CriticalThreshold};size=28px"
     },
     {
       "name": "Markdown",
@@ -2160,7 +2160,7 @@
         "height": 38
       },
       "tileFilter": {},
-      "markdown": "!PU(math):exp=x1;scope=x1:val127;base=${MyBase.value};warn=${MyApp12WarningThreshold};crit=${MyApp12CriticalThreshold};size=28px"
+      "markdown": "!PU(vlookup):link=${overviewName}table7;val=${app-12.name};col=1;base=${MyBase.value};warn=${MyApp1WarningThreshold};crit=${MyApp1CriticalThreshold};size=28px"
     },
     {
       "name": "Markdown",
@@ -2173,7 +2173,7 @@
         "height": 38
       },
       "tileFilter": {},
-      "markdown": "!PU(math):exp=x1;scope=x1:val128;base=${MyBase.value};warn=${MyApp12WarningThreshold};crit=${MyApp12CriticalThreshold};size=28px"
+      "markdown": "!PU(vlookup):link=${overviewName}table8;val=${app-12.name};col=1;base=${MyBase.value};warn=${MyApp1WarningThreshold};crit=${MyApp1CriticalThreshold};size=28px"
     },
     {
       "name": "Markdown",
@@ -2186,7 +2186,7 @@
         "height": 38
       },
       "tileFilter": {},
-      "markdown": "!PU(math):exp=x1;scope=x1:val129;base=${MyBase.value};warn=${MyApp12WarningThreshold};crit=${MyApp12CriticalThreshold};size=28px"
+      "markdown": "!PU(vlookup):link=${overviewName}table9;val=${app-12.name};col=1;base=${MyBase.value};warn=${MyApp1WarningThreshold};crit=${MyApp1CriticalThreshold};size=28px"
     },
     {
       "name": "Markdown",
@@ -2199,7 +2199,7 @@
         "height": 38
       },
       "tileFilter": {},
-      "markdown": "!PU(math):exp=x1;scope=x1:val12a;base=${MyBase.value};warn=${MyApp12WarningThreshold};crit=${MyApp12CriticalThreshold};size=28px"
+      "markdown": "!PU(vlookup):link=${overviewName}table10;val=${app-12.name};col=1;base=${MyBase.value};warn=${MyApp1WarningThreshold};crit=${MyApp1CriticalThreshold};size=28px"
     },
     {
       "name": "Markdown",
@@ -2212,7 +2212,7 @@
         "height": 38
       },
       "tileFilter": {},
-      "markdown": "!PU(math):exp=x1;scope=x1:val12b;base=${MyBase.value};warn=${MyApp12WarningThreshold};crit=${MyApp12CriticalThreshold};size=28px"
+      "markdown": "!PU(vlookup):link=${overviewName}table11;val=${app-12.name};col=1;base=${MyBase.value};warn=${MyApp1WarningThreshold};crit=${MyApp1CriticalThreshold};size=28px"
     },
     {
       "name": "Markdown",
@@ -2225,7 +2225,7 @@
         "height": 38
       },
       "tileFilter": {},
-      "markdown": "!PU(math):exp=x1;scope=x1:val12c;base=${MyBase.value};warn=${MyApp12WarningThreshold};crit=${MyApp12CriticalThreshold};size=28px"
+      "markdown": "!PU(vlookup):link=${overviewName}table12;val=${app-12.name};col=1;base=${MyBase.value};warn=${MyApp1WarningThreshold};crit=${MyApp1CriticalThreshold};size=28px"
 },    {
       "name": "Markdown",
       "tileType": "MARKDOWN",
