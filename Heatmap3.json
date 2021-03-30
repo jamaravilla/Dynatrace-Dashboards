@@ -566,7 +566,7 @@
         "height": 38
       },
       "tileFilter": {},
-      "markdown": "!PU(math):exp=x1;scope=x1:val31;base=${MyBase.value};warn=${MyApp3WarningThreshold};crit=${MyApp3CriticalThreshold};size=28px"
+      "markdown": "!PU(vlookup):link=${overviewName}table1;val=${app-3.name};col=1;base=${MyBase.value};warn=${MyApp1WarningThreshold};crit=${MyApp1CriticalThreshold};size=28px"
     },
     {
       "name": "Markdown",
@@ -579,7 +579,7 @@
         "height": 38
       },
       "tileFilter": {},
-      "markdown": "!PU(math):exp=x1;scope=x1:val32;base=${MyBase.value};warn=${MyApp3WarningThreshold};crit=${MyApp3CriticalThreshold};size=28px"
+      "markdown": "!PU(vlookup):link=${overviewName}table2;val=${app-3.name};col=1;base=${MyBase.value};warn=${MyApp1WarningThreshold};crit=${MyApp1CriticalThreshold};size=28px"
     },
     {
       "name": "Markdown",
@@ -592,7 +592,7 @@
         "height": 38
       },
       "tileFilter": {},
-      "markdown": "!PU(math):exp=x1;scope=x1:val33;base=${MyBase.value};warn=${MyApp3WarningThreshold};crit=${MyApp3CriticalThreshold};size=28px"
+      "markdown": "!PU(vlookup):link=${overviewName}table3;val=${app-3.name};col=1;base=${MyBase.value};warn=${MyApp1WarningThreshold};crit=${MyApp1CriticalThreshold};size=28px"
     },
     {
       "name": "Markdown",
@@ -605,7 +605,7 @@
         "height": 38
       },
       "tileFilter": {},
-      "markdown": "!PU(math):exp=x1;scope=x1:val34;base=${MyBase.value};warn=${MyApp3WarningThreshold};crit=${MyApp3CriticalThreshold};size=28px"
+      "markdown": "!PU(vlookup):link=${overviewName}table4;val=${app-3.name};col=1;base=${MyBase.value};warn=${MyApp1WarningThreshold};crit=${MyApp1CriticalThreshold};size=28px"
     },
     {
       "name": "Markdown",
@@ -618,7 +618,7 @@
         "height": 38
       },
       "tileFilter": {},
-      "markdown": "!PU(math):exp=x1;scope=x1:val35;base=${MyBase.value};warn=${MyApp3WarningThreshold};crit=${MyApp3CriticalThreshold};size=28px"
+      "markdown": "!PU(vlookup):link=${overviewName}table5;val=${app-3.name};col=1;base=${MyBase.value};warn=${MyApp1WarningThreshold};crit=${MyApp1CriticalThreshold};size=28px"
     },
     {
       "name": "Markdown",
@@ -631,7 +631,7 @@
         "height": 38
       },
       "tileFilter": {},
-      "markdown": "!PU(math):exp=x1;scope=x1:val36;base=${MyBase.value};warn=${MyApp3WarningThreshold};crit=${MyApp3CriticalThreshold};size=28px"
+      "markdown": "!PU(vlookup):link=${overviewName}table6;val=${app-3.name};col=1;base=${MyBase.value};warn=${MyApp1WarningThreshold};crit=${MyApp1CriticalThreshold};size=28px"
     },
     {
       "name": "Markdown",
@@ -644,7 +644,7 @@
         "height": 38
       },
       "tileFilter": {},
-      "markdown": "!PU(math):exp=x1;scope=x1:val37;base=${MyBase.value};warn=${MyApp3WarningThreshold};crit=${MyApp3CriticalThreshold};size=28px"
+      "markdown": "!PU(vlookup):link=${overviewName}table7;val=${app-3.name};col=1;base=${MyBase.value};warn=${MyApp1WarningThreshold};crit=${MyApp1CriticalThreshold};size=28px"
     },
     {
       "name": "Markdown",
@@ -657,7 +657,7 @@
         "height": 38
       },
       "tileFilter": {},
-      "markdown": "!PU(math):exp=x1;scope=x1:val38;base=${MyBase.value};warn=${MyApp3WarningThreshold};crit=${MyApp3CriticalThreshold};size=28px"
+      "markdown": "!PU(vlookup):link=${overviewName}table8;val=${app-3.name};col=1;base=${MyBase.value};warn=${MyApp1WarningThreshold};crit=${MyApp1CriticalThreshold};size=28px"
     },
     {
       "name": "Markdown",
@@ -670,7 +670,7 @@
         "height": 38
       },
       "tileFilter": {},
-      "markdown": "!PU(math):exp=x1;scope=x1:val39;base=${MyBase.value};warn=${MyApp3WarningThreshold};crit=${MyApp3CriticalThreshold};size=28px"
+      "markdown": "!PU(vlookup):link=${overviewName}table9;val=${app-3.name};col=1;base=${MyBase.value};warn=${MyApp1WarningThreshold};crit=${MyApp1CriticalThreshold};size=28px"
     },
     {
       "name": "Markdown",
@@ -683,7 +683,7 @@
         "height": 38
       },
       "tileFilter": {},
-      "markdown": "!PU(math):exp=x1;scope=x1:val3a;base=${MyBase.value};warn=${MyApp3WarningThreshold};crit=${MyApp3CriticalThreshold};size=28px"
+      "markdown": "!PU(vlookup):link=${overviewName}table10;val=${app-3.name};col=1;base=${MyBase.value};warn=${MyApp1WarningThreshold};crit=${MyApp1CriticalThreshold};size=28px"
     },
     {
       "name": "Markdown",
@@ -696,7 +696,7 @@
         "height": 38
       },
       "tileFilter": {},
-      "markdown": "!PU(math):exp=x1;scope=x1:val3b;base=${MyBase.value};warn=${MyApp3WarningThreshold};crit=${MyApp3CriticalThreshold};size=28px"
+      "markdown": "!PU(vlookup):link=${overviewName}table11;val=${app-3.name};col=1;base=${MyBase.value};warn=${MyApp1WarningThreshold};crit=${MyApp1CriticalThreshold};size=28px"
     },
     {
       "name": "Markdown",
@@ -709,7 +709,7 @@
         "height": 38
       },
       "tileFilter": {},
-      "markdown": "!PU(math):exp=x1;scope=x1:val3c;base=${MyBase.value};warn=${MyApp3WarningThreshold};crit=${MyApp3CriticalThreshold};size=28px"
+      "markdown": "!PU(vlookup):link=${overviewName}table12;val=${app-3.name};col=1;base=${MyBase.value};warn=${MyApp1WarningThreshold};crit=${MyApp1CriticalThreshold};size=28px"
     }
 ]
 }
