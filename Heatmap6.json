@@ -1217,7 +1217,6 @@
       },
       "tileFilter": {},
       "markdown": "!PU(math):exp=x1;scope=x1:val6c;base=${MyBase.value};warn=${MyApp6WarningThreshold};crit=${MyApp6CriticalThreshold};size=28px"
-    },
- }
+    }
 ]
 }

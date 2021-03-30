@@ -881,6 +881,5 @@
       "tileFilter": {},
       "markdown": "!PU(math):exp=x1;scope=x1:val4c;base=${MyBase.value};warn=${MyApp4WarningThreshold};crit=${MyApp4CriticalThreshold};size=28px"
     }
- }
 ]
 }

@@ -3570,5 +3570,4 @@
       "markdown": "!PU(math):exp=x1;scope=x1:val20c;base=${MyBase.value};warn=${MyApp20WarningThreshold};crit=${MyApp20CriticalThreshold};size=28px"
     }
 ]
-
-}
+}}

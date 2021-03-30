@@ -3232,7 +3232,6 @@
       },
       "tileFilter": {},
       "markdown": "!PU(math):exp=x1;scope=x1:val18c;base=${MyBase.value};warn=${MyApp18WarningThreshold};crit=${MyApp18CriticalThreshold};size=28px"
-    }
+     }
 ]
-
 }

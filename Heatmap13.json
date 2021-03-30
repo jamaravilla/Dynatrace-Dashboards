@@ -2395,5 +2395,4 @@
       "markdown": "!PU(math):exp=x1;scope=x1:val13c;base=${MyBase.value};warn=${MyApp13WarningThreshold};crit=${MyApp13CriticalThreshold};size=28px"
     }
 ]
-
 }
