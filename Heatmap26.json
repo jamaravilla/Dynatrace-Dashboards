@@ -4599,9 +4599,13 @@
                   {
                     "value": "${app-2.name}",
                     "evaluator": "IN"
-                  }
-,                  {
+                  },
+                  {
                     "value": "${app-3.name}",
+                    "evaluator": "IN"
+                  },
+                  {
+                    "value": "${app-4.name}",
                     "evaluator": "IN"
                   }
                 ]
@@ -4737,9 +4741,13 @@
                   {
                     "value": "${app-2.name}",
                     "evaluator": "IN"
-                  }
-,                  {
+                  },
+                  {
                     "value": "${app-3.name}",
+                    "evaluator": "IN"
+                  },
+                  {
+                    "value": "${app-4.name}",
                     "evaluator": "IN"
                   }
                 ]
@@ -4819,9 +4827,13 @@
                   {
                     "value": "${app-2.name}",
                     "evaluator": "IN"
-                  }
-,                  {
+                  },
+                  {
                     "value": "${app-3.name}",
+                    "evaluator": "IN"
+                  },
+                  {
+                    "value": "${app-4.name}",
                     "evaluator": "IN"
                   }
                 ]
@@ -4901,9 +4913,13 @@
                   {
                     "value": "${app-2.name}",
                     "evaluator": "IN"
-                  }
-,                  {
+                  },
+                  {
                     "value": "${app-3.name}",
+                    "evaluator": "IN"
+                  },
+                  {
+                    "value": "${app-4.name}",
                     "evaluator": "IN"
                   }
                 ]
@@ -4983,9 +4999,13 @@
                   {
                     "value": "${app-2.name}",
                     "evaluator": "IN"
-                  }
-,                  {
+                  },
+                  {
                     "value": "${app-3.name}",
+                    "evaluator": "IN"
+                  },
+                  {
+                    "value": "${app-4.name}",
                     "evaluator": "IN"
                   }
                 ]
@@ -5065,9 +5085,13 @@
                   {
                     "value": "${app-2.name}",
                     "evaluator": "IN"
-                  }
-,                  {
+                  },
+                  {
                     "value": "${app-3.name}",
+                    "evaluator": "IN"
+                  },
+                  {
+                    "value": "${app-4.name}",
                     "evaluator": "IN"
                   }
                 ]
@@ -5147,9 +5171,13 @@
                   {
                     "value": "${app-2.name}",
                     "evaluator": "IN"
-                  }
-,                  {
+                  },
+                  {
                     "value": "${app-3.name}",
+                    "evaluator": "IN"
+                  },
+                  {
+                    "value": "${app-4.name}",
                     "evaluator": "IN"
                   }
                 ]
@@ -5229,9 +5257,13 @@
                   {
                     "value": "${app-2.name}",
                     "evaluator": "IN"
-                  }
-,                  {
+                  },
+                  {
                     "value": "${app-3.name}",
+                    "evaluator": "IN"
+                  },
+                  {
+                    "value": "${app-4.name}",
                     "evaluator": "IN"
                   }
                 ]
@@ -5311,9 +5343,13 @@
                   {
                     "value": "${app-2.name}",
                     "evaluator": "IN"
-                  }
-,                  {
+                  },
+                  {
                     "value": "${app-3.name}",
+                    "evaluator": "IN"
+                  },
+                  {
+                    "value": "${app-4.name}",
                     "evaluator": "IN"
                   }
                 ]
@@ -5393,9 +5429,13 @@
                   {
                     "value": "${app-2.name}",
                     "evaluator": "IN"
-                  }
-,                  {
+                  },
+                  {
                     "value": "${app-3.name}",
+                    "evaluator": "IN"
+                  },
+                  {
+                    "value": "${app-4.name}",
                     "evaluator": "IN"
                   }
                 ]
@@ -5475,9 +5515,13 @@
                   {
                     "value": "${app-2.name}",
                     "evaluator": "IN"
-                  }
-,                  {
+                  },
+                  {
                     "value": "${app-3.name}",
+                    "evaluator": "IN"
+                  },
+                  {
+                    "value": "${app-4.name}",
                     "evaluator": "IN"
                   }
                 ]
