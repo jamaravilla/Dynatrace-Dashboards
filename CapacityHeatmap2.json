@@ -34,8 +34,8 @@
           "type": "SINGLE_VALUE",
           "series": [
             {
-              "metric": "builtin:cloud.vmware.hypervisor.cpu.usage",
-              "aggregation": "AVG",
+              "metric": "${MyMetric.value}",
+              "aggregation": "${MyAgg.value}",
               "type": "LINE",
               "entityType": "ESXI",
               "dimensions": [],
