@@ -49,7 +49,7 @@
         "filtersPerEntityType": {
           "ESXI": {
             "SPECIFIC_ENTITIES": [
-              "${entity-1.name}"
+              "${entity-1.id}"
             ]
           }
         }
