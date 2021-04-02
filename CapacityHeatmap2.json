@@ -54,6 +54,47 @@
           }
         }
       }
+    },
+    {
+      "name": "Custom chart",
+      "tileType": "CUSTOM_CHARTING",
+      "configured": true,
+      "bounds": {
+        "top": 76,
+        "left": 380,
+        "width": 304,
+        "height": 304
+      },
+      "tileFilter": {},
+      "filterConfig": {
+        "type": "MIXED",
+        "customName": "Host CPU usage %",
+        "defaultName": "Custom chart",
+        "chartConfig": {
+          "legendShown": true,
+          "type": "SINGLE_VALUE",
+          "series": [
+            {
+              "metric": "${MyMetric.value}",
+              "aggregation": "${MyAgg.value}",
+              "type": "LINE",
+              "entityType": "ESXI",
+              "dimensions": [],
+              "sortAscending": false,
+              "sortColumn": true,
+              "aggregationRate": "TOTAL"
+            }
+          ],
+          "resultMetadata": {}
+        },
+        "filtersPerEntityType": {
+          "ESXI": {
+            "SPECIFIC_ENTITIES": [
+              "${entity-1.id}"
+            ]
+          }
+        }
+      }
     }
 ]
 }
