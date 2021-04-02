@@ -13,36 +13,47 @@
             "published": false
         }
     },
-    "tiles": [{
-      "name": "Markdown",
-      "tileType": "MARKDOWN",
+    "tiles": [
+    {
+      "name": "Custom chart",
+      "tileType": "CUSTOM_CHARTING",
       "configured": true,
       "bounds": {
-        "top": 0,
-        "left": 0,
-        "width": 418,
-        "height": 38
+        "top": 76,
+        "left": 76,
+        "width": 304,
+        "height": 304
       },
       "tileFilter": {},
-      "markdown": "## Hosts"
-    },
-    {"name": "","tileType": "CUSTOM_CHARTING","configured": true,"bounds": {"top": 1292,"left": 0,"width": 38,"height": 38},
-      "tileFilter": {"timeframe": "now to now${MyInterval}"},
-      "filterConfig": {"type": "MIXED","customName": "!PU(link):val11","defaultName": ".","chartConfig": {"legendShown": false,"type": "SINGLE_VALUE",
-          "series": [{"metric": "${MyMetric.value}","aggregation": "${MyAggregation.value}","type": "LINE","entityType": "ESXI","dimensions": [],"sortAscending": false,"sortColumn": false,"aggregationRate": "TOTAL"}
+      "filterConfig": {
+        "type": "MIXED",
+        "customName": "Host CPU usage %",
+        "defaultName": "Custom chart",
+        "chartConfig": {
+          "legendShown": true,
+          "type": "SINGLE_VALUE",
+          "series": [
+            {
+              "metric": "builtin:cloud.vmware.hypervisor.cpu.usage",
+              "aggregation": "AVG",
+              "type": "LINE",
+              "entityType": "ESXI",
+              "dimensions": [],
+              "sortAscending": false,
+              "sortColumn": true,
+              "aggregationRate": "TOTAL"
+            }
           ],
-          "resultMetadata": {},"leftAxisCustomUnit": "Giga"
+          "resultMetadata": {}
         },
-        "filtersPerEntityType": {"ESXI": {"SPECIFIC_ENTITIES": ["${host-1.id}"]}}
+        "filtersPerEntityType": {
+          "ESXI": {
+            "SPECIFIC_ENTITIES": [
+              "${entity-1.name}"
+            ]
+          }
+        }
       }
-    } ,   {"name": "","tileType": "CUSTOM_CHARTING","configured": true,"bounds": {"top": 1330,"left": 0,"width": 38,"height": 38},
-      "tileFilter": {"timeframe": "now to now${MyInterval}"},
-      "filterConfig": {"type": "MIXED","customName": "!PU(link):val21","defaultName": ".","chartConfig": {"legendShown": false,"type": "SINGLE_VALUE",
-          "series": [{"metric": "${MyMetric.value}","aggregation": "${MyAggregation.value}","type": "LINE","entityType": "ESXI","dimensions": [],"sortAscending": false,"sortColumn": false,"aggregationRate": "TOTAL"}
-          ],
-          "resultMetadata": {},"leftAxisCustomUnit": "Giga"
-        },
-        "filtersPerEntityType": {"ESXI": {"SPECIFIC_ENTITIES": ["${host-2.id}"]}}
-      }
-    }]
+    }
+]
 }
