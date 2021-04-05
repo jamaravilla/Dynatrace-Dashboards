@@ -37,7 +37,7 @@
         "height": 38
       },
       "tileFilter": {},
-      "markdown": "!PU(date):res=now to now${MyInterval};fmt=MM/DD HH:mm;color=lightblue"
+      "markdown": "!PU(date):res=now to now${MyInterval};fmt=MM/DD HH:mm;color=${MyColor}"
     },
     {
       "name": "Markdown",
@@ -50,7 +50,7 @@
         "height": 38
       },
       "tileFilter": {},
-      "markdown": "!PU(date):res=now${MyInterval} to now${MyInterval}${MyInterval};fmt=MM/DD HH:mm;color=lightblue"
+      "markdown": "!PU(date):res=now${MyInterval} to now${MyInterval}${MyInterval};fmt=MM/DD HH:mm;color=${MyColor}"
     },
     {
       "name": "Markdown",
@@ -63,7 +63,7 @@
         "height": 38
       },
       "tileFilter": {},
-      "markdown": "!PU(date):res=now${MyInterval}${MyInterval} to now${MyInterval}${MyInterval}${MyInterval};fmt=MM/DD HH:mm;color=lightblue"
+      "markdown": "!PU(date):res=now${MyInterval}${MyInterval} to now${MyInterval}${MyInterval}${MyInterval};fmt=MM/DD HH:mm;color=${MyColor}"
     },
     {
       "name": "Markdown",
@@ -76,7 +76,7 @@
         "height": 38
       },
       "tileFilter": {},
-      "markdown": "!PU(date):res=now${MyInterval}${MyInterval}${MyInterval} to now${MyInterval}${MyInterval}${MyInterval}${MyInterval};fmt=MM/DD HH:mm;color=lightblue"
+      "markdown": "!PU(date):res=now${MyInterval}${MyInterval}${MyInterval} to now${MyInterval}${MyInterval}${MyInterval}${MyInterval};fmt=MM/DD HH:mm;color=${MyColor}"
     },
     {
       "name": "Markdown",
@@ -89,7 +89,7 @@
         "height": 38
       },
       "tileFilter": {},
-      "markdown": "!PU(date):res=now${MyInterval}${MyInterval}${MyInterval}${MyInterval} to now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval};fmt=MM/DD HH:mm;color=lightblue"
+      "markdown": "!PU(date):res=now${MyInterval}${MyInterval}${MyInterval}${MyInterval} to now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval};fmt=MM/DD HH:mm;color=${MyColor}"
     },
     {
       "name": "Markdown",
@@ -102,7 +102,7 @@
         "height": 38
       },
       "tileFilter": {},
-      "markdown": "!PU(date):res=now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval} to now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval};fmt=MM/DD HH:mm;color=lightblue"
+      "markdown": "!PU(date):res=now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval} to now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval};fmt=MM/DD HH:mm;color=${MyColor}"
     },
     {
       "name": "Markdown",
@@ -115,7 +115,7 @@
         "height": 38
       },
       "tileFilter": {},
-      "markdown": "!PU(date):res=now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval} to now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval};fmt=MM/DD HH:mm;color=lightblue"
+      "markdown": "!PU(date):res=now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval} to now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval};fmt=MM/DD HH:mm;color=${MyColor}"
     },
     {
       "name": "Markdown",
@@ -128,7 +128,7 @@
         "height": 38
       },
       "tileFilter": {},
-      "markdown": "!PU(date):res=now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval} to now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval};fmt=MM/DD HH:mm;color=lightblue"
+      "markdown": "!PU(date):res=now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval} to now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval};fmt=MM/DD HH:mm;color=${MyColor}"
     },
     {
       "name": "Markdown",
@@ -141,7 +141,7 @@
         "height": 38
       },
       "tileFilter": {},
-      "markdown": "!PU(date):res=now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval} to now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval};fmt=MM/DD HH:mm;color=lightblue"
+      "markdown": "!PU(date):res=now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval} to now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval};fmt=MM/DD HH:mm;color=${MyColor}"
     },
     {
       "name": "Markdown",
@@ -154,7 +154,7 @@
         "height": 38
       },
       "tileFilter": {},
-      "markdown": "!PU(date):res=now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval} to now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval};fmt=MM/DD HH:mm;color=lightblue"
+      "markdown": "!PU(date):res=now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval} to now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval};fmt=MM/DD HH:mm;color=${MyColor}"
     },
     {
       "name": "Markdown",
@@ -167,7 +167,7 @@
         "height": 38
       },
       "tileFilter": {},
-      "markdown": "!PU(date):res=now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval} to now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval};fmt=MM/DD HH:mm;color=lightblue"
+      "markdown": "!PU(date):res=now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval} to now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval};fmt=MM/DD HH:mm;color=${MyColor}"
     },
     {
       "name": "Markdown",
@@ -180,7 +180,7 @@
         "height": 38
       },
       "tileFilter": {},
-      "markdown": "!PU(date):res=now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval} to now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval};fmt=MM/DD HH:mm;color=lightblue"
+      "markdown": "!PU(date):res=now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval} to now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval};fmt=MM/DD HH:mm;color=${MyColor}"
     },
     {
       "name": "Markdown",
@@ -3239,8 +3239,8 @@
       "queries": [
         {
           "id": "A",
-          "metric": "builtin:apps.web.actionDuration.load.browser",
-          "spaceAggregation": "AVG",
+          "metric": "${MyMetric.value}",
+          "spaceAggregation": "${MyAggregation.value}",
           "timeAggregation": "DEFAULT",
           "splitBy": [
             "dt.entity.application"
@@ -3381,8 +3381,8 @@
       "queries": [
         {
           "id": "A",
-          "metric": "builtin:apps.web.actionDuration.load.browser",
-          "spaceAggregation": "AVG",
+          "metric": "${MyMetric.value}",
+          "spaceAggregation": "${MyAggregation.value}",
           "timeAggregation": "DEFAULT",
           "splitBy": [
             "dt.entity.application"
@@ -3437,8 +3437,8 @@
       "queries": [
         {
           "id": "A",
-          "metric": "builtin:apps.web.actionDuration.load.browser",
-          "spaceAggregation": "AVG",
+          "metric": "${MyMetric.value}",
+          "spaceAggregation": "${MyAggregation.value}",
           "timeAggregation": "DEFAULT",
           "splitBy": [
             "dt.entity.application"
@@ -3579,8 +3579,8 @@
       "queries": [
         {
           "id": "A",
-          "metric": "builtin:apps.web.actionDuration.load.browser",
-          "spaceAggregation": "AVG",
+          "metric": "${MyMetric.value}",
+          "spaceAggregation": "${MyAggregation.value}",
           "timeAggregation": "DEFAULT",
           "splitBy": [
             "dt.entity.application"
@@ -3721,8 +3721,8 @@
       "queries": [
         {
           "id": "A",
-          "metric": "builtin:apps.web.actionDuration.load.browser",
-          "spaceAggregation": "AVG",
+          "metric": "${MyMetric.value}",
+          "spaceAggregation": "${MyAggregation.value}",
           "timeAggregation": "DEFAULT",
           "splitBy": [
             "dt.entity.application"
@@ -3863,8 +3863,8 @@
       "queries": [
         {
           "id": "A",
-          "metric": "builtin:apps.web.actionDuration.load.browser",
-          "spaceAggregation": "AVG",
+          "metric": "${MyMetric.value}",
+          "spaceAggregation": "${MyAggregation.value}",
           "timeAggregation": "DEFAULT",
           "splitBy": [
             "dt.entity.application"
@@ -4005,8 +4005,8 @@
       "queries": [
         {
           "id": "A",
-          "metric": "builtin:apps.web.actionDuration.load.browser",
-          "spaceAggregation": "AVG",
+          "metric": "${MyMetric.value}",
+          "spaceAggregation": "${MyAggregation.value}",
           "timeAggregation": "DEFAULT",
           "splitBy": [
             "dt.entity.application"
@@ -4147,8 +4147,8 @@
       "queries": [
         {
           "id": "A",
-          "metric": "builtin:apps.web.actionDuration.load.browser",
-          "spaceAggregation": "AVG",
+          "metric": "${MyMetric.value}",
+          "spaceAggregation": "${MyAggregation.value}",
           "timeAggregation": "DEFAULT",
           "splitBy": [
             "dt.entity.application"
@@ -4289,8 +4289,8 @@
       "queries": [
         {
           "id": "A",
-          "metric": "builtin:apps.web.actionDuration.load.browser",
-          "spaceAggregation": "AVG",
+          "metric": "${MyMetric.value}",
+          "spaceAggregation": "${MyAggregation.value}",
           "timeAggregation": "DEFAULT",
           "splitBy": [
             "dt.entity.application"
@@ -4431,8 +4431,8 @@
       "queries": [
         {
           "id": "A",
-          "metric": "builtin:apps.web.actionDuration.load.browser",
-          "spaceAggregation": "AVG",
+          "metric": "${MyMetric.value}",
+          "spaceAggregation": "${MyAggregation.value}",
           "timeAggregation": "DEFAULT",
           "splitBy": [
             "dt.entity.application"
@@ -4573,8 +4573,8 @@
       "queries": [
         {
           "id": "A",
-          "metric": "builtin:apps.web.actionDuration.load.browser",
-          "spaceAggregation": "AVG",
+          "metric": "${MyMetric.value}",
+          "spaceAggregation": "${MyAggregation.value}",
           "timeAggregation": "DEFAULT",
           "splitBy": [
             "dt.entity.application"
@@ -4715,8 +4715,8 @@
       "queries": [
         {
           "id": "A",
-          "metric": "builtin:apps.web.actionDuration.load.browser",
-          "spaceAggregation": "AVG",
+          "metric": "${MyMetric.value}",
+          "spaceAggregation": "${MyAggregation.value}",
           "timeAggregation": "DEFAULT",
           "splitBy": [
             "dt.entity.application"
