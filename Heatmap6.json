@@ -206,7 +206,7 @@
         "height": 38
       },
       "tileFilter": {},
-      "markdown": "## [${app-1.name}](${MyLink}=${app-1.id})"
+      "markdown": "## [${app-1.name}](${MyLink.value}=${app-1.id})"
     },
     {
       "name": "Markdown",
@@ -374,7 +374,7 @@
         "height": 38
       },
       "tileFilter": {},
-      "markdown": "## [${app-2.name}](${MyLink}=${app-2.id})"
+      "markdown": "## [${app-2.name}](${MyLink.value}=${app-2.id})"
     },
     {
       "name": "Markdown",
@@ -542,7 +542,7 @@
         "height": 38
       },
       "tileFilter": {},
-      "markdown": "## [${app-3.name}](${MyLink}=${app-3.id})"
+      "markdown": "## [${app-3.name}](${MyLink.value}=${app-3.id})"
     },
     {
       "name": "Markdown",
@@ -711,7 +711,7 @@
         "height": 38
       },
       "tileFilter": {},
-      "markdown": "## [${app-4.name}](${MyLink}=${app-4.id})"
+      "markdown": "## [${app-4.name}](${MyLink.value}=${app-4.id})"
     },
     {
       "name": "Markdown",
@@ -879,7 +879,7 @@
         "height": 38
       },
       "tileFilter": {},
-      "markdown": "## [${app-5.name}](${MyLink}=${app-5.id})"
+      "markdown": "## [${app-5.name}](${MyLink.value}=${app-5.id})"
     },
     {
       "name": "Markdown",
@@ -1048,7 +1048,7 @@
         "height": 38
       },
       "tileFilter": {},
-      "markdown": "## [${app-6.name}](${MyLink}=${app-6.id})"
+      "markdown": "## [${app-6.name}](${MyLink.value}=${app-6.id})"
     },
     {
       "name": "Markdown",
