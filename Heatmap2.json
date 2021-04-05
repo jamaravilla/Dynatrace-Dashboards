@@ -206,7 +206,7 @@
         "height": 38
       },
       "tileFilter": {},
-      "markdown": "## [${app-1.name}](#uemapplications/uemappmetrics;uemapplicationId=${app-1.id})"
+      "markdown": "## [${app-1.name}](${MyLink}=${app-1.id})"
     },
     {
       "name": "Markdown",
@@ -375,7 +375,7 @@
         "height": 38
       },
       "tileFilter": {},
-      "markdown": "## [${app-2.name}](#uemapplications/uemappmetrics;uemapplicationId=${app-2.id})"
+      "markdown": "## [${app-2.name}](${MyLink}=${app-2.id})"
     },
     {
       "name": "Markdown",

@@ -206,7 +206,7 @@
         "height": 38
       },
       "tileFilter": {},
-      "markdown": "## [${app-1.name}](#uemapplications/uemappmetrics;uemapplicationId=${app-1.id})"
+      "markdown": "## [${app-1.name}](${MyLink}=${app-1.id})"
     },
     {
       "name": "Markdown",
@@ -374,7 +374,7 @@
         "height": 38
       },
       "tileFilter": {},
-      "markdown": "## [${app-2.name}](#uemapplications/uemappmetrics;uemapplicationId=${app-2.id})"
+      "markdown": "## [${app-2.name}](${MyLink}=${app-2.id})"
     },
     {
       "name": "Markdown",
@@ -542,7 +542,7 @@
         "height": 38
       },
       "tileFilter": {},
-      "markdown": "## [${app-3.name}](#uemapplications/uemappmetrics;uemapplicationId=${app-3.id})"
+      "markdown": "## [${app-3.name}](${MyLink}=${app-3.id})"
     },
     {
       "name": "Markdown",
@@ -711,7 +711,7 @@
         "height": 38
       },
       "tileFilter": {},
-      "markdown": "## [${app-4.name}](#uemapplications/uemappmetrics;uemapplicationId=${app-4.id})"
+      "markdown": "## [${app-4.name}](${MyLink}=${app-4.id})"
     },
     {
       "name": "Markdown",
@@ -879,7 +879,7 @@
         "height": 38
       },
       "tileFilter": {},
-      "markdown": "## [${app-5.name}](#uemapplications/uemappmetrics;uemapplicationId=${app-5.id})"
+      "markdown": "## [${app-5.name}](${MyLink}=${app-5.id})"
     },
     {
       "name": "Markdown",
@@ -1048,7 +1048,7 @@
         "height": 38
       },
       "tileFilter": {},
-      "markdown": "## [${app-6.name}](#uemapplications/uemappmetrics;uemapplicationId=${app-6.id})"
+      "markdown": "## [${app-6.name}](${MyLink}=${app-6.id})"
     },
     {
       "name": "Markdown",
@@ -1216,7 +1216,7 @@
         "height": 38
       },
       "tileFilter": {},
-      "markdown": "## [${app-7.name}](#uemapplications/uemappmetrics;uemapplicationId=${app-7.id})"
+      "markdown": "## [${app-7.name}](${MyLink}=${app-7.id})"
     },
     {
       "name": "Markdown",
@@ -1384,7 +1384,7 @@
         "height": 38
       },
       "tileFilter": {},
-      "markdown": "## [${app-8.name}](#uemapplications/uemappmetrics;uemapplicationId=${app-8.id})"
+      "markdown": "## [${app-8.name}](${MyLink}=${app-8.id})"
     },
     {
       "name": "Markdown",
@@ -1552,7 +1552,7 @@
         "height": 38
       },
       "tileFilter": {},
-      "markdown": "## [${app-9.name}](#uemapplications/uemappmetrics;uemapplicationId=${app-9.id})"
+      "markdown": "## [${app-9.name}](${MyLink}=${app-9.id})"
     },
     {
       "name": "Markdown",
@@ -1720,7 +1720,7 @@
         "height": 38
       },
       "tileFilter": {},
-      "markdown": "## [${app-10.name}](#uemapplications/uemappmetrics;uemapplicationId=${app-10.id})"
+      "markdown": "## [${app-10.name}](${MyLink}=${app-10.id})"
     },
     {
       "name": "Markdown",
@@ -1888,7 +1888,7 @@
         "height": 38
       },
       "tileFilter": {},
-      "markdown": "## [${app-11.name}](#uemapplications/uemappmetrics;uemapplicationId=${app-11.id})"
+      "markdown": "## [${app-11.name}](${MyLink}=${app-11.id})"
     },
     {
       "name": "Markdown",
@@ -2057,7 +2057,7 @@
         "height": 38
       },
       "tileFilter": {},
-      "markdown": "## [${app-12.name}](#uemapplications/uemappmetrics;uemapplicationId=${app-12.id})"
+      "markdown": "## [${app-12.name}](${MyLink}=${app-12.id})"
     },
     {
       "name": "Markdown",
@@ -2225,7 +2225,7 @@
         "height": 38
       },
       "tileFilter": {},
-      "markdown": "## [${app-13.name}](#uemapplications/uemappmetrics;uemapplicationId=${app-13.id})"
+      "markdown": "## [${app-13.name}](${MyLink}=${app-13.id})"
     },
     {
       "name": "Markdown",
@@ -2392,7 +2392,7 @@
         "height": 38
       },
       "tileFilter": {},
-      "markdown": "## [${app-14.name}](#uemapplications/uemappmetrics;uemapplicationId=${app-14.id})"
+      "markdown": "## [${app-14.name}](${MyLink}=${app-14.id})"
     },
     {
       "name": "Markdown",
@@ -2560,7 +2560,7 @@
         "height": 38
       },
       "tileFilter": {},
-      "markdown": "## [${app-15.name}](#uemapplications/uemappmetrics;uemapplicationId=${app-15.id})"
+      "markdown": "## [${app-15.name}](${MyLink}=${app-15.id})"
     },
     {
       "name": "Markdown",
@@ -2728,7 +2728,7 @@
         "height": 38
       },
       "tileFilter": {},
-      "markdown": "## [${app-16.name}](#uemapplications/uemappmetrics;uemapplicationId=${app-16.id})"
+      "markdown": "## [${app-16.name}](${MyLink}=${app-16.id})"
     },
     {
       "name": "Markdown",
@@ -2896,7 +2896,7 @@
         "height": 38
       },
       "tileFilter": {},
-      "markdown": "## [${app-17.name}](#uemapplications/uemappmetrics;uemapplicationId=${app-17.id})"
+      "markdown": "## [${app-17.name}](${MyLink}=${app-17.id})"
     },
     {
       "name": "Markdown",
@@ -3064,7 +3064,7 @@
         "height": 38
       },
       "tileFilter": {},
-      "markdown": "## [${app-18.name}](#uemapplications/uemappmetrics;uemapplicationId=${app-18.id})"
+      "markdown": "## [${app-18.name}](${MyLink}=${app-18.id})"
     },
     {
       "name": "Markdown",
@@ -3232,7 +3232,7 @@
         "height": 38
       },
       "tileFilter": {},
-      "markdown": "## [${app-19.name}](#uemapplications/uemappmetrics;uemapplicationId=${app-19.id})"
+      "markdown": "## [${app-19.name}](${MyLink}=${app-19.id})"
     },
     {
       "name": "Markdown",
@@ -3400,7 +3400,7 @@
         "height": 38
       },
       "tileFilter": {},
-      "markdown": "## [${app-20.name}](#uemapplications/uemappmetrics;uemapplicationId=${app-20.id})"
+      "markdown": "## [${app-20.name}](${MyLink}=${app-20.id})"
     },
     {
       "name": "Markdown",
@@ -3567,7 +3567,7 @@
         "height": 38
       },
       "tileFilter": {},
-      "markdown": "## [${app-21.name}](#uemapplications/uemappmetrics;uemapplicationId=${app-21.id})"
+      "markdown": "## [${app-21.name}](${MyLink}=${app-21.id})"
     },
     {
       "name": "Markdown",
@@ -3734,7 +3734,7 @@
         "height": 38
       },
       "tileFilter": {},
-      "markdown": "## [${app-22.name}](#uemapplications/uemappmetrics;uemapplicationId=${app-22.id})"
+      "markdown": "## [${app-22.name}](${MyLink}=${app-22.id})"
     },
     {
       "name": "Markdown",
@@ -3901,7 +3901,7 @@
         "height": 38
       },
       "tileFilter": {},
-      "markdown": "## [${app-23.name}](#uemapplications/uemappmetrics;uemapplicationId=${app-23.id})"
+      "markdown": "## [${app-23.name}](${MyLink}=${app-23.id})"
     },
     {
       "name": "Markdown",
