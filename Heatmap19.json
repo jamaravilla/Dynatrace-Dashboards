@@ -3411,13 +3411,13 @@
           "spaceAggregation": "${MyAggregation.value}",
           "timeAggregation": "DEFAULT",
           "splitBy": [
-            "dt.entity.application"
+            "${MySplit.value}"
           ],
           "filterBy": {
             "filterOperator": "AND",
             "nestedFilters": [
               {
-                "filter": "dt.entity.application",
+                "filter": "${MySplit.value}",
                 "filterType": "NAME",
                 "filterOperator": "OR",
                 "nestedFilters": [],
@@ -3557,7 +3557,7 @@
           "spaceAggregation": "${MyAggregation.value}",
           "timeAggregation": "DEFAULT",
           "splitBy": [
-            "dt.entity.application"
+            "${MySplit.value}"
           ],
           "enabled": true
         }
@@ -3613,13 +3613,13 @@
           "spaceAggregation": "${MyAggregation.value}",
           "timeAggregation": "DEFAULT",
           "splitBy": [
-            "dt.entity.application"
+            "${MySplit.value}"
           ],
           "filterBy": {
             "filterOperator": "AND",
             "nestedFilters": [
               {
-                "filter": "dt.entity.application",
+                "filter": "${MySplit.value}",
                 "filterType": "NAME",
                 "filterOperator": "OR",
                 "nestedFilters": [],
@@ -3759,13 +3759,13 @@
           "spaceAggregation": "${MyAggregation.value}",
           "timeAggregation": "DEFAULT",
           "splitBy": [
-            "dt.entity.application"
+            "${MySplit.value}"
           ],
           "filterBy": {
             "filterOperator": "AND",
             "nestedFilters": [
               {
-                "filter": "dt.entity.application",
+                "filter": "${MySplit.value}",
                 "filterType": "NAME",
                 "filterOperator": "OR",
                 "nestedFilters": [],
@@ -3905,13 +3905,13 @@
           "spaceAggregation": "${MyAggregation.value}",
           "timeAggregation": "DEFAULT",
           "splitBy": [
-            "dt.entity.application"
+            "${MySplit.value}"
           ],
           "filterBy": {
             "filterOperator": "AND",
             "nestedFilters": [
               {
-                "filter": "dt.entity.application",
+                "filter": "${MySplit.value}",
                 "filterType": "NAME",
                 "filterOperator": "OR",
                 "nestedFilters": [],
@@ -4051,13 +4051,13 @@
           "spaceAggregation": "${MyAggregation.value}",
           "timeAggregation": "DEFAULT",
           "splitBy": [
-            "dt.entity.application"
+            "${MySplit.value}"
           ],
           "filterBy": {
             "filterOperator": "AND",
             "nestedFilters": [
               {
-                "filter": "dt.entity.application",
+                "filter": "${MySplit.value}",
                 "filterType": "NAME",
                 "filterOperator": "OR",
                 "nestedFilters": [],
@@ -4197,13 +4197,13 @@
           "spaceAggregation": "${MyAggregation.value}",
           "timeAggregation": "DEFAULT",
           "splitBy": [
-            "dt.entity.application"
+            "${MySplit.value}"
           ],
           "filterBy": {
             "filterOperator": "AND",
             "nestedFilters": [
               {
-                "filter": "dt.entity.application",
+                "filter": "${MySplit.value}",
                 "filterType": "NAME",
                 "filterOperator": "OR",
                 "nestedFilters": [],
@@ -4343,13 +4343,13 @@
           "spaceAggregation": "${MyAggregation.value}",
           "timeAggregation": "DEFAULT",
           "splitBy": [
-            "dt.entity.application"
+            "${MySplit.value}"
           ],
           "filterBy": {
             "filterOperator": "AND",
             "nestedFilters": [
               {
-                "filter": "dt.entity.application",
+                "filter": "${MySplit.value}",
                 "filterType": "NAME",
                 "filterOperator": "OR",
                 "nestedFilters": [],
@@ -4489,13 +4489,13 @@
           "spaceAggregation": "${MyAggregation.value}",
           "timeAggregation": "DEFAULT",
           "splitBy": [
-            "dt.entity.application"
+            "${MySplit.value}"
           ],
           "filterBy": {
             "filterOperator": "AND",
             "nestedFilters": [
               {
-                "filter": "dt.entity.application",
+                "filter": "${MySplit.value}",
                 "filterType": "NAME",
                 "filterOperator": "OR",
                 "nestedFilters": [],
@@ -4635,13 +4635,13 @@
           "spaceAggregation": "${MyAggregation.value}",
           "timeAggregation": "DEFAULT",
           "splitBy": [
-            "dt.entity.application"
+            "${MySplit.value}"
           ],
           "filterBy": {
             "filterOperator": "AND",
             "nestedFilters": [
               {
-                "filter": "dt.entity.application",
+                "filter": "${MySplit.value}",
                 "filterType": "NAME",
                 "filterOperator": "OR",
                 "nestedFilters": [],
@@ -4781,13 +4781,13 @@
           "spaceAggregation": "${MyAggregation.value}",
           "timeAggregation": "DEFAULT",
           "splitBy": [
-            "dt.entity.application"
+            "${MySplit.value}"
           ],
           "filterBy": {
             "filterOperator": "AND",
             "nestedFilters": [
               {
-                "filter": "dt.entity.application",
+                "filter": "${MySplit.value}",
                 "filterType": "NAME",
                 "filterOperator": "OR",
                 "nestedFilters": [],
@@ -4927,13 +4927,13 @@
           "spaceAggregation": "${MyAggregation.value}",
           "timeAggregation": "DEFAULT",
           "splitBy": [
-            "dt.entity.application"
+            "${MySplit.value}"
           ],
           "filterBy": {
             "filterOperator": "AND",
             "nestedFilters": [
               {
-                "filter": "dt.entity.application",
+                "filter": "${MySplit.value}",
                 "filterType": "NAME",
                 "filterOperator": "OR",
                 "nestedFilters": [],
