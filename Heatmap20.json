@@ -24,7 +24,7 @@
         "height": 38
       },
       "tileFilter": {},
-      "markdown": "## Applications"
+      "markdown": "## Entities"
     },
     {
       "name": "Markdown",
@@ -3569,7 +3569,7 @@
         "height": 38
       },
       "tileFilter": {
-        "timeframe": "now to now-5m"
+        "timeframe": "now to now${MyInterval}"
       },
       "customName": "Data explorer results",
       "queries": [
@@ -3719,7 +3719,7 @@
         "height": 38
       },
       "tileFilter": {
-        "timeframe": "now-5m to now-5m-5m"
+        "timeframe": "now${MyInterval} to now${MyInterval}${MyInterval}"
       },
       "customName": "Data explorer results",
       "queries": [
@@ -3775,7 +3775,7 @@
         "height": 38
       },
       "tileFilter": {
-        "timeframe": "now-5m-5m to now-5m-5m-5m"
+        "timeframe": "now${MyInterval}${MyInterval} to now${MyInterval}${MyInterval}${MyInterval}"
       },
       "customName": "Data explorer results",
       "queries": [
@@ -3925,7 +3925,7 @@
         "height": 38
       },
       "tileFilter": {
-        "timeframe": "now-5m-5m-5m to now-5m-5m-5m-5m"
+        "timeframe": "now${MyInterval}${MyInterval}${MyInterval} to now${MyInterval}${MyInterval}${MyInterval}${MyInterval}"
       },
       "customName": "Data explorer results",
       "queries": [
@@ -4075,7 +4075,7 @@
         "height": 38
       },
       "tileFilter": {
-        "timeframe": "now-5m-5m-5m-5m to now-5m-5m-5m-5m-5m"
+        "timeframe": "now${MyInterval}${MyInterval}${MyInterval}${MyInterval} to now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}"
       },
       "customName": "Data explorer results",
       "queries": [
@@ -4225,7 +4225,7 @@
         "height": 38
       },
       "tileFilter": {
-        "timeframe": "now-5m-5m-5m-5m-5m to now-5m-5m-5m-5m-5m-5m"
+        "timeframe": "now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval} to now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}"
       },
       "customName": "Data explorer results",
       "queries": [
@@ -4375,7 +4375,7 @@
         "height": 38
       },
       "tileFilter": {
-        "timeframe": "now-5m-5m-5m-5m-5m-5m to now-5m-5m-5m-5m-5m-5m-5m"
+        "timeframe": "now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval} to now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}"
       },
       "customName": "Data explorer results",
       "queries": [
@@ -4525,7 +4525,7 @@
         "height": 38
       },
       "tileFilter": {
-        "timeframe": "now-5m-5m-5m-5m-5m-5m-5m to now-5m-5m-5m-5m-5m-5m-5m-5m"
+        "timeframe": "now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval} to now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}"
       },
       "customName": "Data explorer results",
       "queries": [
@@ -4675,7 +4675,7 @@
         "height": 38
       },
       "tileFilter": {
-        "timeframe": "now-5m-5m-5m-5m-5m-5m-5m-5m to now-5m-5m-5m-5m-5m-5m-5m-5m-5m"
+        "timeframe": "now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval} to now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}"
       },
       "customName": "Data explorer results",
       "queries": [
@@ -4825,7 +4825,7 @@
         "height": 38
       },
       "tileFilter": {
-        "timeframe": "now-5m-5m-5m-5m-5m-5m-5m-5m-5m to now-5m-5m-5m-5m-5m-5m-5m-5m-5m-5m"
+        "timeframe": "now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval} to now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}"
       },
       "customName": "Data explorer results",
       "queries": [
@@ -4975,7 +4975,7 @@
         "height": 38
       },
       "tileFilter": {
-        "timeframe": "now-5m-5m-5m-5m-5m-5m-5m-5m-5m-5m to now-5m-5m-5m-5m-5m-5m-5m-5m-5m-5m-5m"
+        "timeframe": "now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval} to now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}"
       },
       "customName": "Data explorer results",
       "queries": [
@@ -5125,7 +5125,7 @@
         "height": 38
       },
       "tileFilter": {
-        "timeframe": "now-5m-5m-5m-5m-5m-5m-5m-5m-5m-5m-5m to now-5m-5m-5m-5m-5m-5m-5m-5m-5m-5m-5m-5m"
+        "timeframe": "now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval} to now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}"
       },
       "customName": "Data explorer results",
       "queries": [
