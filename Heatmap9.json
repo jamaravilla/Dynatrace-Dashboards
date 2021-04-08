@@ -37,7 +37,7 @@
         "height": 38
       },
       "tileFilter": {},
-      "markdown": "!PU(date):res=now to now${MyInterval};fmt=MM/DD HH:mm;color=${MyColor}"
+      "markdown": "!PU(date):res=now to now${MyInterval}${MyRound};fmt=MM/DD HH:mm;color=${MyColor}"
     },
     {
       "name": "Markdown",
@@ -50,7 +50,7 @@
         "height": 38
       },
       "tileFilter": {},
-      "markdown": "!PU(date):res=now${MyInterval} to now${MyInterval}${MyInterval};fmt=MM/DD HH:mm;color=${MyColor}"
+      "markdown": "!PU(date):res=now${MyInterval}${MyRound} to now${MyInterval}${MyInterval}${MyRound};fmt=MM/DD HH:mm;color=${MyColor}"
     },
     {
       "name": "Markdown",
@@ -63,7 +63,7 @@
         "height": 38
       },
       "tileFilter": {},
-      "markdown": "!PU(date):res=now${MyInterval}${MyInterval} to now${MyInterval}${MyInterval}${MyInterval};fmt=MM/DD HH:mm;color=${MyColor}"
+      "markdown": "!PU(date):res=now${MyInterval}${MyInterval}${MyRound} to now${MyInterval}${MyInterval}${MyInterval}${MyRound};fmt=MM/DD HH:mm;color=${MyColor}"
     },
     {
       "name": "Markdown",
@@ -76,7 +76,7 @@
         "height": 38
       },
       "tileFilter": {},
-      "markdown": "!PU(date):res=now${MyInterval}${MyInterval}${MyInterval} to now${MyInterval}${MyInterval}${MyInterval}${MyInterval};fmt=MM/DD HH:mm;color=${MyColor}"
+      "markdown": "!PU(date):res=now${MyInterval}${MyInterval}${MyInterval}${MyRound} to now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyRound};fmt=MM/DD HH:mm;color=${MyColor}"
     },
     {
       "name": "Markdown",
@@ -89,7 +89,7 @@
         "height": 38
       },
       "tileFilter": {},
-      "markdown": "!PU(date):res=now${MyInterval}${MyInterval}${MyInterval}${MyInterval} to now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval};fmt=MM/DD HH:mm;color=${MyColor}"
+      "markdown": "!PU(date):res=now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyRound} to now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyRound};fmt=MM/DD HH:mm;color=${MyColor}"
     },
     {
       "name": "Markdown",
@@ -102,7 +102,7 @@
         "height": 38
       },
       "tileFilter": {},
-      "markdown": "!PU(date):res=now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval} to now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval};fmt=MM/DD HH:mm;color=${MyColor}"
+      "markdown": "!PU(date):res=now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyRound} to now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyRound};fmt=MM/DD HH:mm;color=${MyColor}"
     },
     {
       "name": "Markdown",
@@ -115,7 +115,7 @@
         "height": 38
       },
       "tileFilter": {},
-      "markdown": "!PU(date):res=now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval} to now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval};fmt=MM/DD HH:mm;color=${MyColor}"
+      "markdown": "!PU(date):res=now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyRound} to now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyRound};fmt=MM/DD HH:mm;color=${MyColor}"
     },
     {
       "name": "Markdown",
@@ -128,7 +128,7 @@
         "height": 38
       },
       "tileFilter": {},
-      "markdown": "!PU(date):res=now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval} to now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval};fmt=MM/DD HH:mm;color=${MyColor}"
+      "markdown": "!PU(date):res=now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyRound} to now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyRound};fmt=MM/DD HH:mm;color=${MyColor}"
     },
     {
       "name": "Markdown",
@@ -141,7 +141,7 @@
         "height": 38
       },
       "tileFilter": {},
-      "markdown": "!PU(date):res=now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval} to now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval};fmt=MM/DD HH:mm;color=${MyColor}"
+      "markdown": "!PU(date):res=now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyRound} to now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyRound};fmt=MM/DD HH:mm;color=${MyColor}"
     },
     {
       "name": "Markdown",
@@ -154,7 +154,7 @@
         "height": 38
       },
       "tileFilter": {},
-      "markdown": "!PU(date):res=now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval} to now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval};fmt=MM/DD HH:mm;color=${MyColor}"
+      "markdown": "!PU(date):res=now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyRound} to now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyRound};fmt=MM/DD HH:mm;color=${MyColor}"
     },
     {
       "name": "Markdown",
@@ -167,7 +167,7 @@
         "height": 38
       },
       "tileFilter": {},
-      "markdown": "!PU(date):res=now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval} to now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval};fmt=MM/DD HH:mm;color=${MyColor}"
+      "markdown": "!PU(date):res=now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyRound} to now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyRound};fmt=MM/DD HH:mm;color=${MyColor}"
     },
     {
       "name": "Markdown",
@@ -180,7 +180,7 @@
         "height": 38
       },
       "tileFilter": {},
-      "markdown": "!PU(date):res=now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval} to now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval};fmt=MM/DD HH:mm;color=${MyColor}"
+      "markdown": "!PU(date):res=now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyRound} to now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyRound};fmt=MM/DD HH:mm;color=${MyColor}"
     },
     {
       "name": "Markdown",
@@ -1721,7 +1721,7 @@
         "height": 38
       },
       "tileFilter": {
-        "timeframe": "now to now${MyInterval}"
+        "timeframe": "now to now${MyInterval}${MyRound}"
       },
       "customName": "Data explorer results",
       "queries": [
@@ -1827,7 +1827,7 @@
         "height": 38
       },
       "tileFilter": {
-        "timeframe": "now${MyInterval} to now${MyInterval}${MyInterval}"
+        "timeframe": "now${MyInterval}${MyRound} to now${MyInterval}${MyInterval}${MyRound}"
       },
       "customName": "Data explorer results",
       "queries": [
@@ -1883,7 +1883,7 @@
         "height": 38
       },
       "tileFilter": {
-        "timeframe": "now${MyInterval}${MyInterval} to now${MyInterval}${MyInterval}${MyInterval}"
+        "timeframe": "now${MyInterval}${MyInterval}${MyRound} to now${MyInterval}${MyInterval}${MyInterval}${MyRound}"
       },
       "customName": "Data explorer results",
       "queries": [
@@ -1989,7 +1989,7 @@
         "height": 38
       },
       "tileFilter": {
-        "timeframe": "now${MyInterval}${MyInterval}${MyInterval} to now${MyInterval}${MyInterval}${MyInterval}${MyInterval}"
+        "timeframe": "now${MyInterval}${MyInterval}${MyInterval}${MyRound} to now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyRound}"
       },
       "customName": "Data explorer results",
       "queries": [
@@ -2095,7 +2095,7 @@
         "height": 38
       },
       "tileFilter": {
-        "timeframe": "now${MyInterval}${MyInterval}${MyInterval}${MyInterval} to now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}"
+        "timeframe": "now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyRound} to now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyRound}"
       },
       "customName": "Data explorer results",
       "queries": [
@@ -2201,7 +2201,7 @@
         "height": 38
       },
       "tileFilter": {
-        "timeframe": "now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval} to now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}"
+        "timeframe": "now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyRound} to now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyRound}"
       },
       "customName": "Data explorer results",
       "queries": [
@@ -2307,7 +2307,7 @@
         "height": 38
       },
       "tileFilter": {
-        "timeframe": "now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval} to now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}"
+        "timeframe": "now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyRound} to now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyRound}"
       },
       "customName": "Data explorer results",
       "queries": [
@@ -2413,7 +2413,7 @@
         "height": 38
       },
       "tileFilter": {
-        "timeframe": "now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval} to now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}"
+        "timeframe": "now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyRound} to now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyRound}"
       },
       "customName": "Data explorer results",
       "queries": [
@@ -2519,7 +2519,7 @@
         "height": 38
       },
       "tileFilter": {
-        "timeframe": "now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval} to now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}"
+        "timeframe": "now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyRound} to now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyRound}"
       },
       "customName": "Data explorer results",
       "queries": [
@@ -2625,7 +2625,7 @@
         "height": 38
       },
       "tileFilter": {
-        "timeframe": "now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval} to now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}"
+        "timeframe": "now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyRound} to now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyRound}"
       },
       "customName": "Data explorer results",
       "queries": [
@@ -2731,7 +2731,7 @@
         "height": 38
       },
       "tileFilter": {
-        "timeframe": "now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval} to now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}"
+        "timeframe": "now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyRound} to now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyRound}"
       },
       "customName": "Data explorer results",
       "queries": [
@@ -2837,7 +2837,7 @@
         "height": 38
       },
       "tileFilter": {
-        "timeframe": "now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval} to now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}"
+        "timeframe": "now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyRound} to now${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyInterval}${MyRound}"
       },
       "customName": "Data explorer results",
       "queries": [
