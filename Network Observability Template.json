@@ -10,6 +10,10 @@
     "name": "${overviewName} Network Observability",
     "shared": false,
     "owner": "anthony.pope-cruz@dynatrace.com",
+        "sharingDetails": {
+            "linkShared": true,
+            "published": false
+        }
     "dashboardFilter": {
       "timeframe": "-2h"
     },
