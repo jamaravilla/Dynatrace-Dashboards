@@ -1,0 +1,1134 @@
+ {
+  "metadata": {
+    "configurationVersions": [
+      3
+    ],
+    "clusterVersion": "1.215.107.20210414-181420"
+  },
+  "id": "3d586b5c-6fcb-470b-8dc7-14a5a9b66e80",
+  "dashboardMetadata": {
+    "name": "${overviewName} Network Observability",
+    "shared": false,
+    "owner": "anthony.pope-cruz@dynatrace.com",
+    "dashboardFilter": {
+      "timeframe": "-2h"
+    },
+    "tags": [
+      "Network"
+    ]
+  },
+  "tiles": [
+    {
+      "name": "Throughput",
+      "tileType": "HEADER",
+      "configured": true,
+      "bounds": {
+        "top": 0,
+        "left": 0,
+        "width": 608,
+        "height": 38
+      },
+      "tileFilter": {}
+    },
+    {
+      "name": "Performance",
+      "tileType": "HEADER",
+      "configured": true,
+      "bounds": {
+        "top": 0,
+        "left": 646,
+        "width": 608,
+        "height": 38
+      },
+      "tileFilter": {}
+    },
+    {
+      "name": "Quality",
+      "tileType": "HEADER",
+      "configured": true,
+      "bounds": {
+        "top": 0,
+        "left": 1292,
+        "width": 608,
+        "height": 38
+      },
+      "tileFilter": {}
+    },
+    {
+      "name": "Network packets received per second",
+      "tileType": "DATA_EXPLORER",
+      "configured": true,
+      "bounds": {
+        "top": 38,
+        "left": 0,
+        "width": 304,
+        "height": 304
+      },
+      "tileFilter": {},
+      "customName": "Data explorer results",
+      "queries": [
+        {
+          "id": "A",
+          "metric": "builtin:tech.generic.network.packets.rx",
+          "spaceAggregation": "AVG",
+          "timeAggregation": "DEFAULT",
+          "splitBy": [
+            "dt.entity.process_group_instance"
+          ],
+          "filterBy": {
+            "filterOperator": "AND",
+            "nestedFilters": [],
+            "criteria": []
+          },
+          "metricSelector": "builtin:tech.generic.network.packets.rx:splitBy(\"dt.entity.process_group_instance\"):avg:auto:sort(value(avg,descending)):limit(20)",
+          "enabled": true
+        }
+      ],
+      "visualConfig": {
+        "type": "GRAPH_CHART",
+        "global": {
+          "theme": "DEFAULT",
+          "threshold": {
+            "axisTarget": "LEFT",
+            "columnId": "Retransmitted packets received per second",
+            "rules": [
+              {
+                "color": "#dc172a"
+              },
+              {
+                "color": "#f5d30f"
+              },
+              {
+                "color": "#7dc540"
+              }
+            ]
+          },
+          "seriesType": "LINE"
+        },
+        "rules": [
+          {
+            "matcher": "A:",
+            "properties": {
+              "seriesType": "AREA"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Network packets sent per second",
+      "tileType": "DATA_EXPLORER",
+      "configured": true,
+      "bounds": {
+        "top": 38,
+        "left": 304,
+        "width": 304,
+        "height": 304
+      },
+      "tileFilter": {},
+      "customName": "Data explorer results",
+      "queries": [
+        {
+          "id": "A",
+          "metric": "builtin:tech.generic.network.packets.tx",
+          "spaceAggregation": "AVG",
+          "timeAggregation": "DEFAULT",
+          "splitBy": [
+            "dt.entity.process_group_instance"
+          ],
+          "filterBy": {
+            "filterOperator": "AND",
+            "nestedFilters": [],
+            "criteria": []
+          },
+          "metricSelector": "builtin:tech.generic.network.packets.tx:splitBy(\"dt.entity.process_group_instance\"):avg:auto:sort(value(avg,descending)):limit(20)",
+          "enabled": true
+        }
+      ],
+      "visualConfig": {
+        "type": "GRAPH_CHART",
+        "global": {
+          "theme": "DEFAULT",
+          "threshold": {
+            "axisTarget": "LEFT",
+            "columnId": "Retransmitted packets received per second",
+            "rules": [
+              {
+                "color": "#dc172a"
+              },
+              {
+                "color": "#f5d30f"
+              },
+              {
+                "color": "#7dc540"
+              }
+            ]
+          },
+          "seriesType": "LINE"
+        },
+        "rules": [
+          {
+            "matcher": "A:",
+            "properties": {
+              "seriesType": "AREA"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Network traffic in",
+      "tileType": "DATA_EXPLORER",
+      "configured": true,
+      "bounds": {
+        "top": 342,
+        "left": 0,
+        "width": 304,
+        "height": 304
+      },
+      "tileFilter": {},
+      "customName": "Data explorer results",
+      "queries": [
+        {
+          "id": "A",
+          "metric": "builtin:tech.generic.network.traffic.trafficIn",
+          "spaceAggregation": "AVG",
+          "timeAggregation": "DEFAULT",
+          "splitBy": [
+            "dt.entity.process_group_instance"
+          ],
+          "filterBy": {
+            "filterOperator": "AND",
+            "nestedFilters": [],
+            "criteria": []
+          },
+          "metricSelector": "builtin:tech.generic.network.traffic.\"trafficIn\":splitBy(\"dt.entity.process_group_instance\"):avg:auto:sort(value(avg,descending)):limit(20)",
+          "enabled": true
+        }
+      ],
+      "visualConfig": {
+        "type": "GRAPH_CHART",
+        "global": {
+          "theme": "DEFAULT",
+          "threshold": {
+            "axisTarget": "LEFT",
+            "columnId": "Retransmitted packets received per second",
+            "rules": [
+              {
+                "color": "#dc172a"
+              },
+              {
+                "color": "#f5d30f"
+              },
+              {
+                "color": "#7dc540"
+              }
+            ]
+          },
+          "seriesType": "LINE"
+        },
+        "rules": [
+          {
+            "matcher": "A:",
+            "properties": {
+              "seriesType": "AREA"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Network traffic out",
+      "tileType": "DATA_EXPLORER",
+      "configured": true,
+      "bounds": {
+        "top": 342,
+        "left": 304,
+        "width": 304,
+        "height": 304
+      },
+      "tileFilter": {},
+      "customName": "Data explorer results",
+      "queries": [
+        {
+          "id": "A",
+          "metric": "builtin:tech.generic.network.traffic.trafficOut",
+          "spaceAggregation": "AVG",
+          "timeAggregation": "DEFAULT",
+          "splitBy": [
+            "dt.entity.process_group_instance"
+          ],
+          "filterBy": {
+            "filterOperator": "AND",
+            "nestedFilters": [],
+            "criteria": []
+          },
+          "metricSelector": "builtin:tech.generic.network.traffic.\"trafficOut\":splitBy(\"dt.entity.process_group_instance\"):avg:auto:sort(value(avg,descending)):limit(20)",
+          "enabled": true
+        }
+      ],
+      "visualConfig": {
+        "type": "GRAPH_CHART",
+        "global": {
+          "theme": "DEFAULT",
+          "threshold": {
+            "axisTarget": "LEFT",
+            "columnId": "Retransmitted packets received per second",
+            "rules": [
+              {
+                "color": "#dc172a"
+              },
+              {
+                "color": "#f5d30f"
+              },
+              {
+                "color": "#7dc540"
+              }
+            ]
+          },
+          "seriesType": "LINE"
+        },
+        "rules": [
+          {
+            "matcher": "A:",
+            "properties": {
+              "seriesType": "AREA"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Network traffic in",
+      "tileType": "DATA_EXPLORER",
+      "configured": true,
+      "bounds": {
+        "top": 684,
+        "left": 0,
+        "width": 304,
+        "height": 304
+      },
+      "tileFilter": {},
+      "customName": "Data explorer results",
+      "queries": [
+        {
+          "id": "A",
+          "metric": "builtin:host.net.nic.trafficIn",
+          "spaceAggregation": "AVG",
+          "timeAggregation": "DEFAULT",
+          "splitBy": [
+            "dt.entity.host"
+          ],
+          "filterBy": {
+            "filterOperator": "AND",
+            "nestedFilters": [],
+            "criteria": []
+          },
+          "metricSelector": "builtin:host.net.nic.\"trafficIn\":splitBy(\"dt.entity.host\"):avg:auto:sort(value(avg,descending)):limit(20)",
+          "enabled": true
+        }
+      ],
+      "visualConfig": {
+        "type": "GRAPH_CHART",
+        "global": {
+          "theme": "DEFAULT",
+          "threshold": {
+            "axisTarget": "LEFT",
+            "rules": [
+              {
+                "color": "#7dc540"
+              },
+              {
+                "color": "#f5d30f"
+              },
+              {
+                "color": "#dc172a"
+              }
+            ]
+          },
+          "seriesType": "LINE"
+        },
+        "rules": []
+      }
+    },
+    {
+      "name": "Network traffic out",
+      "tileType": "DATA_EXPLORER",
+      "configured": true,
+      "bounds": {
+        "top": 684,
+        "left": 304,
+        "width": 304,
+        "height": 304
+      },
+      "tileFilter": {},
+      "customName": "Data explorer results",
+      "queries": [
+        {
+          "id": "A",
+          "metric": "builtin:host.net.nic.trafficOut",
+          "spaceAggregation": "AVG",
+          "timeAggregation": "DEFAULT",
+          "splitBy": [
+            "dt.entity.host"
+          ],
+          "filterBy": {
+            "filterOperator": "AND",
+            "nestedFilters": [],
+            "criteria": []
+          },
+          "metricSelector": "builtin:host.net.nic.\"trafficOut\":splitBy(\"dt.entity.host\"):avg:auto:sort(value(avg,descending)):limit(20)",
+          "enabled": true
+        }
+      ],
+      "visualConfig": {
+        "type": "GRAPH_CHART",
+        "global": {
+          "theme": "DEFAULT",
+          "threshold": {
+            "axisTarget": "LEFT",
+            "rules": [
+              {
+                "color": "#7dc540"
+              },
+              {
+                "color": "#f5d30f"
+              },
+              {
+                "color": "#dc172a"
+              }
+            ]
+          },
+          "seriesType": "LINE"
+        },
+        "rules": []
+      }
+    },
+    {
+      "name": "Ack-round-trip-time",
+      "tileType": "DATA_EXPLORER",
+      "configured": true,
+      "bounds": {
+        "top": 38,
+        "left": 646,
+        "width": 304,
+        "height": 304
+      },
+      "tileFilter": {},
+      "customName": "Data explorer results",
+      "queries": [
+        {
+          "id": "A",
+          "metric": "builtin:tech.generic.network.latency",
+          "spaceAggregation": "AVG",
+          "timeAggregation": "DEFAULT",
+          "splitBy": [
+            "dt.entity.process_group_instance"
+          ],
+          "filterBy": {
+            "filterOperator": "AND",
+            "nestedFilters": [],
+            "criteria": []
+          },
+          "metricSelector": "builtin:tech.generic.network.latency:splitBy(\"dt.entity.process_group_instance\"):avg:auto:sort(value(avg,descending)):limit(20)",
+          "enabled": true
+        }
+      ],
+      "visualConfig": {
+        "type": "GRAPH_CHART",
+        "global": {
+          "theme": "DEFAULT",
+          "threshold": {
+            "axisTarget": "LEFT",
+            "rules": [
+              {
+                "value": 100,
+                "color": "#dc172a"
+              },
+              {
+                "color": "#f5d30f"
+              },
+              {
+                "color": "#7dc540"
+              }
+            ]
+          },
+          "seriesType": "LINE"
+        },
+        "rules": [
+          {
+            "matcher": "A:",
+            "properties": {
+              "seriesType": "LINE"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Data packet round-trip-time",
+      "tileType": "DATA_EXPLORER",
+      "configured": true,
+      "bounds": {
+        "top": 38,
+        "left": 950,
+        "width": 304,
+        "height": 304
+      },
+      "tileFilter": {},
+      "customName": "Data explorer results",
+      "queries": [
+        {
+          "id": "A",
+          "metric": "builtin:tech.generic.network.roundTrip",
+          "spaceAggregation": "AVG",
+          "timeAggregation": "DEFAULT",
+          "splitBy": [
+            "dt.entity.process_group_instance"
+          ],
+          "filterBy": {
+            "filterOperator": "AND",
+            "nestedFilters": [],
+            "criteria": []
+          },
+          "metricSelector": "builtin:tech.generic.network.\"roundTrip\":splitBy(\"dt.entity.process_group_instance\"):avg:auto:sort(value(avg,descending)):limit(20)",
+          "enabled": true
+        }
+      ],
+      "visualConfig": {
+        "type": "GRAPH_CHART",
+        "global": {
+          "theme": "DEFAULT",
+          "threshold": {
+            "axisTarget": "LEFT",
+            "rules": [
+              {
+                "value": 100,
+                "color": "#dc172a"
+              },
+              {
+                "color": "#f5d30f"
+              },
+              {
+                "color": "#7dc540"
+              }
+            ]
+          },
+          "seriesType": "LINE"
+        },
+        "rules": [
+          {
+            "matcher": "A:",
+            "properties": {
+              "seriesType": "LINE"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Server TCP responsiveness",
+      "tileType": "DATA_EXPLORER",
+      "configured": true,
+      "bounds": {
+        "top": 342,
+        "left": 646,
+        "width": 304,
+        "height": 304
+      },
+      "tileFilter": {},
+      "customName": "Data explorer results",
+      "queries": [
+        {
+          "id": "A",
+          "metric": "builtin:tech.generic.network.responsiveness",
+          "spaceAggregation": "AVG",
+          "timeAggregation": "DEFAULT",
+          "splitBy": [
+            "dt.entity.process_group_instance"
+          ],
+          "filterBy": {
+            "filterOperator": "AND",
+            "nestedFilters": [],
+            "criteria": []
+          },
+          "metricSelector": "builtin:tech.generic.network.responsiveness:splitBy(\"dt.entity.process_group_instance\"):avg:auto:sort(value(avg,descending)):limit(20)",
+          "enabled": true
+        }
+      ],
+      "visualConfig": {
+        "type": "GRAPH_CHART",
+        "global": {
+          "theme": "DEFAULT",
+          "threshold": {
+            "axisTarget": "LEFT",
+            "columnId": "Retransmitted packets received per second",
+            "rules": [
+              {
+                "color": "#dc172a"
+              },
+              {
+                "color": "#f5d30f"
+              },
+              {
+                "color": "#7dc540"
+              }
+            ]
+          },
+          "seriesType": "LINE"
+        },
+        "rules": [
+          {
+            "matcher": "A:",
+            "properties": {
+              "seriesType": "LINE"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "TCP Requests per second",
+      "tileType": "DATA_EXPLORER",
+      "configured": true,
+      "bounds": {
+        "top": 342,
+        "left": 950,
+        "width": 304,
+        "height": 304
+      },
+      "tileFilter": {},
+      "customName": "Data explorer results",
+      "queries": [
+        {
+          "id": "A",
+          "metric": "builtin:tech.generic.network.load",
+          "spaceAggregation": "AVG",
+          "timeAggregation": "DEFAULT",
+          "splitBy": [
+            "dt.entity.process_group_instance"
+          ],
+          "filterBy": {
+            "filterOperator": "AND",
+            "nestedFilters": [],
+            "criteria": []
+          },
+          "metricSelector": "builtin:tech.generic.network.load:splitBy(\"dt.entity.process_group_instance\"):avg:auto:sort(value(avg,descending)):limit(15)",
+          "enabled": true
+        }
+      ],
+      "visualConfig": {
+        "type": "PIE_CHART",
+        "global": {
+          "theme": "DEFAULT",
+          "threshold": {
+            "axisTarget": "LEFT",
+            "rules": [
+              {
+                "color": "#7dc540"
+              },
+              {
+                "color": "#f5d30f"
+              },
+              {
+                "color": "#dc172a"
+              }
+            ]
+          },
+          "seriesType": "LINE"
+        },
+        "rules": [
+          {
+            "matcher": "A:",
+            "properties": {
+              "seriesType": "LINE"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Network interface packets received per second",
+      "tileType": "DATA_EXPLORER",
+      "configured": true,
+      "bounds": {
+        "top": 684,
+        "left": 646,
+        "width": 304,
+        "height": 304
+      },
+      "tileFilter": {},
+      "customName": "Data explorer results",
+      "queries": [
+        {
+          "id": "A",
+          "metric": "builtin:host.net.nic.packets.rx",
+          "spaceAggregation": "AVG",
+          "timeAggregation": "DEFAULT",
+          "splitBy": [
+            "dt.entity.network_interface",
+            "dt.entity.host"
+          ],
+          "enabled": true
+        }
+      ],
+      "visualConfig": {
+        "type": "GRAPH_CHART",
+        "global": {
+          "theme": "DEFAULT",
+          "threshold": {
+            "axisTarget": "LEFT",
+            "columnId": "telegraf.aws-easytravel-lnx.netstat.tcp_none:filter(and(in(\"dt.entity.host\",entitySelector(\"type(host),tag(~\"easyTravel:aws-easytravel-lnx~\")\")))):splitBy(\"dt.entity.host\"):avg:auto:sort(value(avg,descending)):limit(100)",
+            "rules": [
+              {
+                "color": "#7dc540"
+              },
+              {
+                "color": "#f5d30f"
+              },
+              {
+                "color": "#dc172a"
+              }
+            ]
+          },
+          "seriesType": "LINE"
+        },
+        "rules": [
+          {
+            "matcher": "A:",
+            "properties": {
+              "seriesType": "LINE"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Network interface packets sent per second",
+      "tileType": "DATA_EXPLORER",
+      "configured": true,
+      "bounds": {
+        "top": 684,
+        "left": 950,
+        "width": 304,
+        "height": 304
+      },
+      "tileFilter": {},
+      "customName": "Data explorer results",
+      "queries": [
+        {
+          "id": "A",
+          "metric": "builtin:host.net.nic.packets.tx",
+          "spaceAggregation": "AVG",
+          "timeAggregation": "DEFAULT",
+          "splitBy": [
+            "dt.entity.network_interface",
+            "dt.entity.host"
+          ],
+          "metricSelector": "builtin:host.net.nic.packets.tx:splitBy(\"dt.entity.network_interface\",\"dt.entity.host\"):avg:auto:sort(value(avg,descending)):limit(20)",
+          "enabled": true
+        }
+      ],
+      "visualConfig": {
+        "type": "GRAPH_CHART",
+        "global": {
+          "theme": "DEFAULT",
+          "threshold": {
+            "axisTarget": "LEFT",
+            "columnId": "telegraf.aws-easytravel-lnx.netstat.tcp_none:filter(and(in(\"dt.entity.host\",entitySelector(\"type(host),tag(~\"easyTravel:aws-easytravel-lnx~\")\")))):splitBy(\"dt.entity.host\"):avg:auto:sort(value(avg,descending)):limit(100)",
+            "rules": [
+              {
+                "color": "#7dc540"
+              },
+              {
+                "color": "#f5d30f"
+              },
+              {
+                "color": "#dc172a"
+              }
+            ]
+          },
+          "seriesType": "LINE"
+        },
+        "rules": [
+          {
+            "matcher": "A:",
+            "properties": {
+              "seriesType": "LINE"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Retransmitted packets received per second",
+      "tileType": "DATA_EXPLORER",
+      "configured": true,
+      "bounds": {
+        "top": 38,
+        "left": 1292,
+        "width": 304,
+        "height": 304
+      },
+      "tileFilter": {},
+      "customName": "Data explorer results",
+      "queries": [
+        {
+          "id": "A",
+          "metric": "builtin:tech.generic.network.packets.reRxAggr",
+          "spaceAggregation": "AVG",
+          "timeAggregation": "DEFAULT",
+          "splitBy": [
+            "dt.entity.process_group_instance"
+          ],
+          "filterBy": {
+            "filterOperator": "AND",
+            "nestedFilters": [],
+            "criteria": []
+          },
+          "metricSelector": "builtin:tech.generic.network.packets.\"reRxAggr\":splitBy(\"dt.entity.process_group_instance\"):avg:auto:sort(value(avg,descending)):limit(20)",
+          "enabled": true
+        }
+      ],
+      "visualConfig": {
+        "type": "GRAPH_CHART",
+        "global": {
+          "theme": "DEFAULT",
+          "threshold": {
+            "axisTarget": "LEFT",
+            "columnId": "Retransmitted packets received per second",
+            "rules": [
+              {
+                "value": 0.5,
+                "color": "#dc172a"
+              },
+              {
+                "value": 0.1,
+                "color": "#f5d30f"
+              },
+              {
+                "color": "#7dc540"
+              }
+            ]
+          },
+          "seriesType": "LINE"
+        },
+        "rules": [
+          {
+            "matcher": "A:",
+            "properties": {
+              "seriesType": "LINE"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Retransmitted packets sent per second",
+      "tileType": "DATA_EXPLORER",
+      "configured": true,
+      "bounds": {
+        "top": 38,
+        "left": 1596,
+        "width": 304,
+        "height": 304
+      },
+      "tileFilter": {},
+      "customName": "Data explorer results",
+      "queries": [
+        {
+          "id": "A",
+          "metric": "builtin:tech.generic.network.packets.reTxAggr",
+          "spaceAggregation": "AVG",
+          "timeAggregation": "DEFAULT",
+          "splitBy": [
+            "dt.entity.process_group_instance"
+          ],
+          "filterBy": {
+            "filterOperator": "AND",
+            "nestedFilters": [],
+            "criteria": []
+          },
+          "metricSelector": "builtin:tech.generic.network.packets.\"reTxAggr\":splitBy(\"dt.entity.process_group_instance\"):avg:auto:sort(value(avg,descending)):limit(20)",
+          "enabled": true
+        }
+      ],
+      "visualConfig": {
+        "type": "GRAPH_CHART",
+        "global": {
+          "theme": "DEFAULT",
+          "threshold": {
+            "axisTarget": "LEFT",
+            "columnId": "Retransmitted packets received per second",
+            "rules": [
+              {
+                "value": 0.5,
+                "color": "#dc172a"
+              },
+              {
+                "value": 0.1,
+                "color": "#f5d30f"
+              },
+              {
+                "color": "#7dc540"
+              }
+            ]
+          },
+          "seriesType": "LINE"
+        },
+        "rules": [
+          {
+            "matcher": "A:",
+            "properties": {
+              "seriesType": "LINE"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Session reset received per second",
+      "tileType": "DATA_EXPLORER",
+      "configured": true,
+      "bounds": {
+        "top": 342,
+        "left": 1292,
+        "width": 304,
+        "height": 304
+      },
+      "tileFilter": {},
+      "customName": "Data explorer results",
+      "queries": [
+        {
+          "id": "A",
+          "metric": "builtin:tech.generic.network.sessions.resetAggr",
+          "spaceAggregation": "AVG",
+          "timeAggregation": "DEFAULT",
+          "splitBy": [
+            "dt.entity.process_group_instance"
+          ],
+          "filterBy": {
+            "filterOperator": "AND",
+            "nestedFilters": [],
+            "criteria": []
+          },
+          "metricSelector": "builtin:tech.generic.network.sessions.\"resetAggr\":splitBy(\"dt.entity.process_group_instance\"):avg:auto:sort(value(avg,descending)):limit(10)",
+          "enabled": true
+        }
+      ],
+      "visualConfig": {
+        "type": "TOP_LIST",
+        "global": {
+          "theme": "DEFAULT",
+          "threshold": {
+            "axisTarget": "LEFT",
+            "columnId": "Retransmitted packets received per second",
+            "rules": [
+              {
+                "color": "#dc172a"
+              },
+              {
+                "color": "#f5d30f"
+              },
+              {
+                "color": "#7dc540"
+              }
+            ]
+          },
+          "seriesType": "LINE"
+        },
+        "rules": [
+          {
+            "matcher": "A:",
+            "properties": {
+              "seriesType": "AREA"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Session timeout received per second",
+      "tileType": "DATA_EXPLORER",
+      "configured": true,
+      "bounds": {
+        "top": 342,
+        "left": 1596,
+        "width": 304,
+        "height": 304
+      },
+      "tileFilter": {},
+      "customName": "Data explorer results",
+      "queries": [
+        {
+          "id": "A",
+          "metric": "builtin:tech.generic.network.sessions.timeoutAggr",
+          "spaceAggregation": "AVG",
+          "timeAggregation": "DEFAULT",
+          "splitBy": [
+            "dt.entity.process_group_instance"
+          ],
+          "filterBy": {
+            "filterOperator": "AND",
+            "nestedFilters": [],
+            "criteria": []
+          },
+          "metricSelector": "builtin:tech.generic.network.sessions.\"timeoutAggr\":splitBy(\"dt.entity.process_group_instance\"):avg:auto:sort(value(avg,descending)):limit(10)",
+          "enabled": true
+        }
+      ],
+      "visualConfig": {
+        "type": "TOP_LIST",
+        "global": {
+          "theme": "DEFAULT",
+          "threshold": {
+            "axisTarget": "LEFT",
+            "columnId": "Retransmitted packets received per second",
+            "rules": [
+              {
+                "color": "#dc172a"
+              },
+              {
+                "color": "#f5d30f"
+              },
+              {
+                "color": "#7dc540"
+              }
+            ]
+          },
+          "seriesType": "LINE"
+        },
+        "rules": [
+          {
+            "matcher": "A:",
+            "properties": {
+              "seriesType": "AREA"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Host retransmitted packets received per second",
+      "tileType": "DATA_EXPLORER",
+      "configured": true,
+      "bounds": {
+        "top": 684,
+        "left": 1292,
+        "width": 304,
+        "height": 304
+      },
+      "tileFilter": {},
+      "customName": "Data explorer results",
+      "queries": [
+        {
+          "id": "A",
+          "metric": "builtin:host.net.packets.rxReceived",
+          "spaceAggregation": "AVG",
+          "timeAggregation": "DEFAULT",
+          "splitBy": [
+            "dt.entity.host"
+          ],
+          "filterBy": {
+            "filterOperator": "AND",
+            "nestedFilters": [],
+            "criteria": []
+          },
+          "metricSelector": "builtin:host.net.packets.\"rxReceived\":splitBy(\"dt.entity.host\"):avg:auto:sort(value(avg,descending)):limit(20)",
+          "enabled": true
+        }
+      ],
+      "visualConfig": {
+        "type": "GRAPH_CHART",
+        "global": {
+          "theme": "DEFAULT",
+          "threshold": {
+            "axisTarget": "LEFT",
+            "rules": [
+              {
+                "color": "#7dc540"
+              },
+              {
+                "value": 0.1,
+                "color": "#f5d30f"
+              },
+              {
+                "color": "#dc172a"
+              }
+            ]
+          },
+          "seriesType": "LINE"
+        },
+        "rules": [
+          {
+            "matcher": "A:",
+            "properties": {
+              "seriesType": "LINE"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Host retransmitted packets sent per second",
+      "tileType": "DATA_EXPLORER",
+      "configured": true,
+      "bounds": {
+        "top": 684,
+        "left": 1596,
+        "width": 304,
+        "height": 304
+      },
+      "tileFilter": {},
+      "customName": "Data explorer results",
+      "queries": [
+        {
+          "id": "A",
+          "metric": "builtin:host.net.packets.rxSent",
+          "spaceAggregation": "AVG",
+          "timeAggregation": "DEFAULT",
+          "splitBy": [
+            "dt.entity.host"
+          ],
+          "filterBy": {
+            "filterOperator": "AND",
+            "nestedFilters": [],
+            "criteria": []
+          },
+          "metricSelector": "builtin:host.net.packets.\"rxSent\":splitBy(\"dt.entity.host\"):avg:auto:sort(value(avg,descending)):limit(20)",
+          "enabled": true
+        }
+      ],
+      "visualConfig": {
+        "type": "GRAPH_CHART",
+        "global": {
+          "theme": "DEFAULT",
+          "threshold": {
+            "axisTarget": "LEFT",
+            "rules": [
+              {
+                "color": "#7dc540"
+              },
+              {
+                "value": 0.1,
+                "color": "#f5d30f"
+              },
+              {
+                "color": "#dc172a"
+              }
+            ]
+          },
+          "seriesType": "LINE"
+        },
+        "rules": [
+          {
+            "matcher": "A:",
+            "properties": {
+              "seriesType": "LINE"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
