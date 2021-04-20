@@ -256,7 +256,7 @@
         },
         "tileFilter": {},
         "customName": "!PU(color):base=low;warn=${durationWarningThreshold};crit=${durationCriticalThreshold} !PU(link):lnk1",
-        "query": "select avg(useraction.duration) as \" \" FROM usersession where useraction.application=\"${app.name}\" and ${conversionGoal}",
+        "query": "select avg(useraction.duration) as \" \" FROM useraction where useraction.application=\"${app.name}\" and ${conversionGoal}",
         "type": "SINGLE_VALUE",
         "limit": 50
     }, {
@@ -271,7 +271,7 @@
         },
         "tileFilter": {},
         "customName": "!PU(color):base=high;warn=${conversionsWarningThreshold};crit=${conversionsCriticalThreshold} !PU(link):lnk3",
-        "query": "select count(*) as \" \" FROM usersession where useraction.application=\"${app.name}\" and ${conversionGoal}",
+        "query": "select count(*) as \" \" FROM useraction where useraction.application=\"${app.name}\" and ${conversionGoal}",
         "type": "SINGLE_VALUE",
         "limit": 50
     }, {
