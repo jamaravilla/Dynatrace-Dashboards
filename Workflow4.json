@@ -253,7 +253,7 @@
       },
       "tileFilter": {},
       "customName": " ",
-      "query": "select AVG(useraction.networkTime) as \"Network\" from usersession where useraction.application in (\"${app.name}\") and useraction.name=\"${method-0.name}\"",
+      "query": "select AVG(useraction.networkTime) as \"Network\" from useraction where useraction.application in (\"${app.name}\") and useraction.name=\"${method-0.name}\"",
       "type": "SINGLE_VALUE",
       "timeFrameShift": "dynamic",
       "limit": 50
@@ -321,7 +321,7 @@
       },
       "tileFilter": {},
       "customName": " ",
-      "query": "select AVG(useraction.networkTime) as \"Network\" from usersession where useraction.application in (\"${app.name}\") and useraction.name=\"${method-1.name}\"",
+      "query": "select AVG(useraction.networkTime) as \"Network\" from useraction where useraction.application in (\"${app.name}\") and useraction.name=\"${method-1.name}\"",
       "type": "SINGLE_VALUE",
       "timeFrameShift": "dynamic",
       "limit": 50
@@ -405,7 +405,7 @@
       },
       "tileFilter": {},
       "customName": " ",
-      "query": "select AVG(useraction.networkTime) as \"Network\" from usersession where useraction.application in (\"${app.name}\") and useraction.name=\"${method-2.name}\"",
+      "query": "select AVG(useraction.networkTime) as \"Network\" from useraction where useraction.application in (\"${app.name}\") and useraction.name=\"${method-2.name}\"",
       "type": "SINGLE_VALUE",
       "timeFrameShift": "dynamic",
       "limit": 50
@@ -489,7 +489,7 @@
       },
       "tileFilter": {},
       "customName": " ",
-      "query": "select AVG(useraction.networkTime) as \"Network\" from usersession where useraction.application in (\"${app.name}\") and useraction.name=\"${method-3.name}\"",
+      "query": "select AVG(useraction.networkTime) as \"Network\" from useraction where useraction.application in (\"${app.name}\") and useraction.name=\"${method-3.name}\"",
       "type": "SINGLE_VALUE",
       "timeFrameShift": "dynamic",
       "limit": 50
