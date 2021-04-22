@@ -314,7 +314,7 @@
       },
       "tileFilter": {},
       "customName": " ",
-      "query": "SELECT AVG(useraction.visuallyCompleteTime) AS \"Visually Complete\" FROM usersession where useraction.application in (\"${app.name}\") and useraction.name=\"${method-0.name}\"",
+      "query": "SELECT AVG(useraction.visuallyCompleteTime) AS \"Visually Complete\" FROM useraction where useraction.application in (\"${app.name}\") and useraction.name=\"${method-0.name}\"",
       "type": "SINGLE_VALUE",
       "timeFrameShift": "dynamic",
       "limit": 50
@@ -382,7 +382,7 @@
       },
       "tileFilter": {},
       "customName": " ",
-      "query": "SELECT AVG(useraction.visuallyCompleteTime) AS \"Visually Complete\" FROM usersession where useraction.application in (\"${app.name}\") and useraction.name=\"${method-1.name}\"",
+      "query": "SELECT AVG(useraction.visuallyCompleteTime) AS \"Visually Complete\" FROM useraction where useraction.application in (\"${app.name}\") and useraction.name=\"${method-1.name}\"",
       "type": "SINGLE_VALUE",
       "timeFrameShift": "dynamic",
       "limit": 50
@@ -466,7 +466,7 @@
       },
       "tileFilter": {},
       "customName": " ",
-      "query": "SELECT AVG(useraction.visuallyCompleteTime) AS \"Visually Complete\" FROM usersession where useraction.application in (\"${app.name}\") and useraction.name=\"${method-2.name}\"",
+      "query": "SELECT AVG(useraction.visuallyCompleteTime) AS \"Visually Complete\" FROM useraction where useraction.application in (\"${app.name}\") and useraction.name=\"${method-2.name}\"",
       "type": "SINGLE_VALUE",
       "timeFrameShift": "dynamic",
       "limit": 50
@@ -550,7 +550,7 @@
       },
       "tileFilter": {},
       "customName": " ",
-      "query": "SELECT AVG(useraction.visuallyCompleteTime) AS \"Visually Complete\" FROM usersession where useraction.application in (\"${app.name}\") and useraction.name=\"${method-3.name}\"",
+      "query": "SELECT AVG(useraction.visuallyCompleteTime) AS \"Visually Complete\" FROM useraction where useraction.application in (\"${app.name}\") and useraction.name=\"${method-3.name}\"",
       "type": "SINGLE_VALUE",
       "timeFrameShift": "dynamic",
       "limit": 50
@@ -634,7 +634,7 @@
       },
       "tileFilter": {},
       "customName": " ",
-      "query": "SELECT AVG(useraction.visuallyCompleteTime) AS \"Visually Complete\" FROM usersession where useraction.application in (\"${app.name}\") and useraction.name=\"${method-4.name}\"",
+      "query": "SELECT AVG(useraction.visuallyCompleteTime) AS \"Visually Complete\" FROM useraction where useraction.application in (\"${app.name}\") and useraction.name=\"${method-4.name}\"",
       "type": "SINGLE_VALUE",
       "timeFrameShift": "dynamic",
       "limit": 50
@@ -718,7 +718,7 @@
       },
       "tileFilter": {},
       "customName": " ",
-      "query": "SELECT AVG(useraction.visuallyCompleteTime) AS \"Visually Complete\" FROM usersession where useraction.application in (\"${app.name}\") and useraction.name=\"${method-5.name}\"",
+      "query": "SELECT AVG(useraction.visuallyCompleteTime) AS \"Visually Complete\" FROM useraction where useraction.application in (\"${app.name}\") and useraction.name=\"${method-5.name}\"",
       "type": "SINGLE_VALUE",
       "timeFrameShift": "dynamic",
       "limit": 50
@@ -802,7 +802,7 @@
       },
       "tileFilter": {},
       "customName": " ",
-      "query": "SELECT AVG(useraction.visuallyCompleteTime) AS \"Visually Complete\" FROM usersession where useraction.application in (\"${app.name}\") and useraction.name=\"${method-6.name}\"",
+      "query": "SELECT AVG(useraction.visuallyCompleteTime) AS \"Visually Complete\" FROM useraction where useraction.application in (\"${app.name}\") and useraction.name=\"${method-6.name}\"",
       "type": "SINGLE_VALUE",
       "timeFrameShift": "dynamic",
       "limit": 50
@@ -886,7 +886,7 @@
       },
       "tileFilter": {},
       "customName": " ",
-      "query": "SELECT AVG(useraction.visuallyCompleteTime) AS \"Visually Complete\" FROM usersession where useraction.application in (\"${app.name}\") and useraction.name=\"${method-7.name}\"",
+      "query": "SELECT AVG(useraction.visuallyCompleteTime) AS \"Visually Complete\" FROM useraction where useraction.application in (\"${app.name}\") and useraction.name=\"${method-7.name}\"",
       "type": "SINGLE_VALUE",
       "timeFrameShift": "dynamic",
       "limit": 50
@@ -970,7 +970,7 @@
       },
       "tileFilter": {},
       "customName": " ",
-      "query": "SELECT AVG(useraction.visuallyCompleteTime) AS \"Visually Complete\" FROM usersession where useraction.application in (\"${app.name}\") and useraction.name=\"${method-8.name}\"",
+      "query": "SELECT AVG(useraction.visuallyCompleteTime) AS \"Visually Complete\" FROM useraction where useraction.application in (\"${app.name}\") and useraction.name=\"${method-8.name}\"",
       "type": "SINGLE_VALUE",
       "timeFrameShift": "dynamic",
       "limit": 50
@@ -1054,7 +1054,7 @@
       },
       "tileFilter": {},
       "customName": " ",
-      "query": "SELECT AVG(useraction.visuallyCompleteTime) AS \"Visually Complete\" FROM usersession where useraction.application in (\"${app.name}\") and useraction.name=\"${method-9.name}\"",
+      "query": "SELECT AVG(useraction.visuallyCompleteTime) AS \"Visually Complete\" FROM useraction where useraction.application in (\"${app.name}\") and useraction.name=\"${method-9.name}\"",
       "type": "SINGLE_VALUE",
       "timeFrameShift": "dynamic",
       "limit": 50
