@@ -634,6 +634,28 @@
           "splitBy": [
             "${MySplit.value}"
           ],
+          "filterBy": {
+            "filterOperator": "AND",
+            "nestedFilters": [
+              {
+                "filter": "${MySplit.value}",
+                "filterType": "NAME",
+                "filterOperator": "OR",
+                "nestedFilters": [],
+                "criteria": [
+                  {
+                    "value": "${app-1.name}",
+                    "evaluator": "IN"
+                  },
+                  {
+                    "value": "${app-2.name}",
+                    "evaluator": "IN"
+                  }
+                ]
+              }
+            ],
+            "criteria": []
+          },
           "enabled": true
         }
       ],
