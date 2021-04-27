@@ -205,7 +205,7 @@
         "height": 38
       },
       "tileFilter": {},
-      "markdown": "!PU(svg):icon=actionspersession;link=lnkstep1abandonrate;color=white;url=#dashboard;id=98ce6811-3cc8-4a15-b9ce-c57ebb331b81;tooltip=Click for ${journey.header-1} Sankey Analysis"
+      "markdown": "!PU(svg):icon=actionspersession;link=lnkstep1abandonrate;color=white;url=#dashboard;id=98ce6811-3cc8-4a15-b9ce-c57ebb331b82;tooltip=Click for ${journey.header-1} Sankey Analysis"
     },
     {
       "name": "Step1OverviewIcon",
