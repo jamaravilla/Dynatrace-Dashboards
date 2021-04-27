@@ -7,7 +7,7 @@
   },
   "id": "1f993e62-c4b7-4ba3-9b05-7f426362ed00",
   "dashboardMetadata": {
-    "name": "\uD83D\uDC8E ${overviewName} User Journey",
+    "name": "\uD83D\uDC8E ${UserJourneyName} User Journey",
     "shared": true,
     "owner": "john.kelly@dynatrace.com",
         "sharingDetails": {
@@ -15,7 +15,7 @@
             "published": false
         },
     "dashboardFilter": {
-      "timeframe": "-24h to now"
+      "timeframe": "l_2_HOURS"
     },
     "tags": ["${app.name}"]
   },
@@ -174,7 +174,7 @@
         "height": 38
       },
       "tileFilter": {},
-      "markdown": "!PU(svg):icon=webpages;link=lnkstep1abandonrate;color=white;url=${url}/ui/applications/${app-1.id}/mda?gtf=-24h%20to%20now&gf=all&analysisType=PAGES;tooltip=Click for ${journey.header-1} Page Analysis"
+      "markdown": "!PU(svg):icon=webpages;link=lnkstep1abandonrate;color=white;url=${url}/ui/applications/${app-1.id}/mda?gtf=-2h%20to%20now&gf=all&analysisType=PAGES;tooltip=Click for ${journey.header-1} Page Analysis"
     },
     {
       "name": "Step1SankeyIcon",
@@ -226,7 +226,7 @@
         "height": 38
       },
       "tileFilter": {},
-      "markdown": "!PU(svg):icon=webpages;link=lnkstep2abandonrate;color=white;url=${url}/ui/applications/${app-1.id}/mda?gtf=-24h%20to%20now&gf=all&analysisType=PAGES;tooltip=Click for ${journey.header-2} Page Analysis"
+      "markdown": "!PU(svg):icon=webpages;link=lnkstep2abandonrate;color=white;url=${url}/ui/applications/${app-1.id}/mda?gtf=-2h%20to%20now&gf=all&analysisType=PAGES;tooltip=Click for ${journey.header-2} Page Analysis"
     },
     {
       "name": "Step2SankeyIcon",
@@ -278,7 +278,7 @@
         "height": 38
       },
       "tileFilter": {},
-      "markdown": "!PU(svg):icon=webpages;link=lnksteplastabandonrate;color=white;url=${url}/ui/applications/${app-1.id}/mda?gtf=-24h%20to%20now&gf=all&analysisType=PAGES;tooltip=Click for ${journey.header-last} Page Analysis"
+      "markdown": "!PU(svg):icon=webpages;link=lnksteplastabandonrate;color=white;url=${url}/ui/applications/${app-1.id}/mda?gtf=-2h%20to%20now&gf=all&analysisType=PAGES;tooltip=Click for ${journey.header-last} Page Analysis"
     },
     {
       "name": "StepLastSankeyIcon",
@@ -451,7 +451,7 @@
       },
       "tileFilter": {},
       "customName": "!PU(usqlcolor):colors=#4363d8,#42d4f4,#f032e6,#469990,#e6beff,#9a6324,#aaffc3,#808000,#ffd8b1,#f58231 !PU(menu):name=Zoom In;url=#dashboard;id=103d5aeb-e974-4f98-9626-45643670c481",
-      "query": "SELECT distinct datetime(endtime,\"M-d HH:mm\",\"40m\"), \nCONDITION(count(*), WHERE ${journey.where-1}) AS \"${journey.header-1}\", \nCONDITION(count(*), WHERE ${journey.where-1} and ${journey.where-2}) AS \"${journey.header-2}\", \nCONDITION(count(*), WHERE ${journey.where-1} and ${journey.where-2} and ${journey.where-last}) AS \"${journey.header-last}\" \nfrom usersession",
+      "query": "SELECT distinct datetime(endtime,\"M-d HH:mm\",\"4m\"), \nCONDITION(count(*), WHERE ${journey.where-1}) AS \"${journey.header-1}\", \nCONDITION(count(*), WHERE ${journey.where-1} and ${journey.where-2}) AS \"${journey.header-2}\", \nCONDITION(count(*), WHERE ${journey.where-1} and ${journey.where-2} and ${journey.where-last}) AS \"${journey.header-last}\" \nfrom usersession",
       "type": "LINE_CHART",
       "visualizationConfig": {
         "hasAxisBucketing": false

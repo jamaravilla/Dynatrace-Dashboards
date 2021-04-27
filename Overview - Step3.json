@@ -15,7 +15,7 @@
             "published": false
         },
     "dashboardFilter": {
-      "timeframe": "-24h to now"
+      "timeframe": "l_2_HOURS"
     }
   },
   "tiles": [
