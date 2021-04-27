@@ -274,7 +274,7 @@
         "height": 38
       },
       "tileFilter": {},
-      "markdown": "!PU(svg):icon=webpages;link=lnksteplastabandonrate;color=white;url=${url}/ui/applications/${app-1.id}/mda?gtf=-24h%20to%20now&gf=all&analysisType=PAGES	;tooltip=Click for ${journey.header-last} Page Analysis"
+      "markdown": "!PU(svg):icon=webpages;link=lnksteplastabandonrate;color=white;url=${url}/ui/applications/${app-1.id}/mda?gtf=-24h%20to%20now&gf=all&analysisType=PAGES;tooltip=Click for ${journey.header-last} Page Analysis"
     },
     {
       "name": "StepLastSankeyIcon",
