@@ -5,7 +5,7 @@
     ],
     "clusterVersion": "1.215.107.20210414-181420"
   },
-  "id": "a98b146b-5647-494f-9be1-bf455404bc91",
+  "id": "12345678-9012-3456-7890-12345678901",
   "dashboardMetadata": {
     "name": "${UserJourneyName} Overview - ${journey.header-1}",
     "shared": false,
