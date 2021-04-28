@@ -257,7 +257,7 @@
         "height": 38
       },
       "tileFilter": {},
-      "markdown": "!PU(svg):icon=actionspersession;link=lnkstep2abandonrate;color=white;url=#dashboard;id=e5c015a7-f742-4638-ac9f-fddbf255cc82;tooltip=Click for ${journey.header-2} Sankey Analysis"
+      "markdown": "!PU(svg):icon=actionspersession;link=lnkstep2abandonrate;color=white;url=#dashboard;id=98ce6811-3cc8-4a15-b9ce-c57ebb331b82;tooltip=Click for ${journey.header-2} Sankey Analysis"
     },
     {
       "name": "Step2OverviewIcon",
