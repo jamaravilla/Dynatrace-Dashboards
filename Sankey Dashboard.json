@@ -41,7 +41,7 @@
         },
         "tileFilter": {},
         "customName": "UserJourneys !PU(sankey):link=sankey1;kpi=${property.usql};kpicurr=${MyCurrency.value};convHack=2;colors=apdex;exclude=${MyExcludeString} !PU(table):",
-        "query": "select useraction.name, useraction.matchingConversionGoals, useraction.apdexCategory, useraction.isEntryAction, useraction.isExitAction, useraction.stringProperties, useraction.doubleProperties, useraction.longProperties, useraction.dateProperties, useraction.duration, totalErrorCount, userExperienceScore FROM usersession WHERE useraction.application in (\"${app.name}\") ${MyString} and useractioncount<20",
+        "query": "select useraction.name, useraction.matchingConversionGoals, useraction.apdexCategory, useraction.isEntryAction, useraction.isExitAction, useraction.stringProperties, useraction.doubleProperties, useraction.longProperties, useraction.dateProperties, useraction.duration, totalErrorCount, userExperienceScore FROM usersession WHERE useraction.application in (\"${app.name}\") ${MyString} and useractioncount<${MyActionLimit}",
         "type": "TABLE",
         "limit": "${MyLimit}"
     }]
